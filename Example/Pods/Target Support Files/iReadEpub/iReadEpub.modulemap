@@ -1,0 +1,6 @@
+framework module iReadEpub {
+  umbrella header "iReadEpub-umbrella.h"
+
+  export *
+  module * { export * }
+}

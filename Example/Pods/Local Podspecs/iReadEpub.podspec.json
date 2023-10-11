@@ -1,0 +1,22 @@
+{
+  "name": "iReadEpub",
+  "version": "0.1.0",
+  "summary": "A short description of iReadEpub.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/amrangry/iReadEpub",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "amrangry": "amr.elghadban@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/amrangry/iReadEpub.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "iReadEpub/Classes/**/*"
+}
