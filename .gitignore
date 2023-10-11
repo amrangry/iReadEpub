@@ -1,4 +1,4 @@
-# OS X
+# macOS
 .DS_Store
 
 # Xcode
@@ -42,4 +42,3 @@ Carthage/Build
 # `pod install` in .travis.yml
 #
 # Pods/
-
