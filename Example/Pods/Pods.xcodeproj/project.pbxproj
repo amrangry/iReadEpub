@@ -297,6 +297,7 @@
 		5C2039170E1D46EA9C0E1A54551D8109 /* iReadEpub */ = {
 			isa = PBXGroup;
 			children = (
+				C5C18BBE2AD731550065404F /* Source */,
 				D36E8B97F72B9DD757DAFB503B8D0916 /* ReplaceMe.swift */,
 				0F6CAD7C21A626AEF6D06936B64878D1 /* Pod */,
 				B2DE2993968AB3D321C4E2B9801C15E8 /* Support Files */,
@@ -383,6 +384,13 @@
 				7BEE4620510572DFE85ADB837A80D1E9 /* Fuzi */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		C5C18BBE2AD731550065404F /* Source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
