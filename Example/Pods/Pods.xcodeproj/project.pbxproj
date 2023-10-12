@@ -18,7 +18,6 @@
 		22E44D199CBA4A553E85191EC53CF66B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		25925FE6FA5CC87F654E84F90123D640 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAB56F0BE6AE7E414F40CCC68620E7D /* Helpers.swift */; };
 		2ADBEF2E97ABC2517C363831FCB457D2 /* Differentiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA84F1EDC225506E9ACD1A3E317B38E /* Differentiable.swift */; };
-		2B91AABCB19B8F1860DD6B30C1F98228 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36E8B97F72B9DD757DAFB503B8D0916 /* ReplaceMe.swift */; };
 		2E33FBC223A22EE5D6B6A69D37CB19E3 /* Pods-iReadEpub_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A12E87DEE6180C3020712B8F1DA98F78 /* Pods-iReadEpub_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2F1B2F492AF3EFDB71EEDBC1E7561462 /* Pods-iReadEpub_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E365C3170D4AD70C30880496C94119D6 /* Pods-iReadEpub_Tests-dummy.m */; };
 		433B15B48503E62D00E92DEF4297A1A1 /* Changeset.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCA646E2969450975B9D30913D6B278 /* Changeset.swift */; };
@@ -679,7 +678,6 @@
 		CD17B03AF0FF2E11207C7FF89EF49BA4 /* DifferenceKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DifferenceKit.release.xcconfig; sourceTree = "<group>"; };
 		CEA9C42EBFD5EC2DE0C11E763144B6AB /* Pods-iReadEpub_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iReadEpub_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		D36E8B97F72B9DD757DAFB503B8D0916 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = iReadEpub/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		D44DDECB6D1CCFAC1ED6FE80EB41AC86 /* StagedChangeset.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StagedChangeset.swift; path = Sources/StagedChangeset.swift; sourceTree = "<group>"; };
 		D65967F15837298C0C732F9A2EED8755 /* Pods-iReadEpub_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iReadEpub_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DCBFAB50AF3F15E954BFEE7423FC5156 /* iReadEpub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iReadEpub.debug.xcconfig; sourceTree = "<group>"; };
@@ -848,7 +846,6 @@
 			isa = PBXGroup;
 			children = (
 				C5C18BBE2AD731550065404F /* Source */,
-				D36E8B97F72B9DD757DAFB503B8D0916 /* ReplaceMe.swift */,
 				0F6CAD7C21A626AEF6D06936B64878D1 /* Pod */,
 				B2DE2993968AB3D321C4E2B9801C15E8 /* Support Files */,
 			);
@@ -2471,7 +2468,6 @@
 				C5C18D852AD737990065404F /* Minizip.swift in Sources */,
 				C5C18D8D2AD737990065404F /* PDFOutlineNode.swift in Sources */,
 				C5C18E162AD737990065404F /* Streamer.swift in Sources */,
-				2B91AABCB19B8F1860DD6B30C1F98228 /* ReplaceMe.swift in Sources */,
 				C5C18E002AD737990065404F /* ImageParser.swift in Sources */,
 				C5C18E0E2AD737990065404F /* NavigationDocumentParser.swift in Sources */,
 				C5C18E212AD737990065404F /* StringExtension.swift in Sources */,

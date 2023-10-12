@@ -34,7 +34,8 @@ TODO: Add long description of the pod here.
       "ios": "12.0"
   }
 
-  s.source_files = 'iReadEpub/Classes/**/*'
+  #s.source_files = 'iReadEpub/Classes/**/*'
+  s.source_files = 'Source/**/*'
   
   # s.resource_bundles = {
   #   'iReadEpub' => ['iReadEpub/Assets/*.png']
