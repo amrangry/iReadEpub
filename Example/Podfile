@@ -12,5 +12,8 @@ target 'iReadEpub_Example' do
     pod 'Fuzi' , '~> 3.1.3'
     pod 'DifferenceKit' , '~> 1.3.0'
     pod 'CryptoSwift', '~> 1.5.1'
+    pod 'SwiftSoup', '~> 2.5.3'
+    pod 'Minizip', '~> 1.0.0'
+ 
   end
 end

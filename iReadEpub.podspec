@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'iReadEpub'
-    s.version          = '0.1.4'
+    s.version          = '0.1.6'
     s.summary          = 'iReadEpub is aswiftly lib for Epub reading'
     
     # This description is used to generate tags and improve search results.
@@ -37,11 +37,13 @@ Pod::Spec.new do |s|
     s.requires_arc     = true
     
     # s.public_header_files = 'Pod/Classes/**/*.h'
-    # s.frameworks = 'UIKit', 'MapKit'
-    s.frameworks = 'UIKit'
+    s.frameworks = 'UIKit', 'WebKit', 'SafariServices'
     s.dependency 'Fuzi' , '~> 3.1.3'
     s.dependency 'DifferenceKit' , '~> 1.3.0'
     s.dependency 'CryptoSwift', '~> 1.5.1'
+    s.dependency 'SwiftSoup', '~> 2.5.3'
+    s.dependency 'Minizip', '~> 1.0.0'
+
     #  s.default_subspec  = 'App'
     #  s.subspec 'App' do |app|
     #      app.source_files = 'SwiftMessages/**/*.swift'
