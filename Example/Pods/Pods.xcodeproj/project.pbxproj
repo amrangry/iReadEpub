@@ -365,10 +365,10 @@
 		3DBF1242A9D883F1AD57370727DF51FE /* AnyDifferentiable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyDifferentiable.swift; path = Sources/AnyDifferentiable.swift; sourceTree = "<group>"; };
 		3F5FB53F7BBE741D5B1548FFF674DF14 /* Pods-iReadEpub_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iReadEpub_Tests.modulemap"; sourceTree = "<group>"; };
 		505821167DC93A05281A44C2F2F26364 /* Fuzi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Fuzi.debug.xcconfig; sourceTree = "<group>"; };
-		53403D33C5E5028A91EA92C6C7B27C7C /* Pods-iReadEpub_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-iReadEpub_Tests"; path = Pods_iReadEpub_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53403D33C5E5028A91EA92C6C7B27C7C /* Pods_iReadEpub_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iReadEpub_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C11AC7A5C66CCC5ABC1156B621ABC9E /* Pods-iReadEpub_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iReadEpub_Tests-Info.plist"; sourceTree = "<group>"; };
 		601845A548D423F2D95A54E30AB14446 /* Pods-iReadEpub_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iReadEpub_Example.modulemap"; sourceTree = "<group>"; };
-		6F92177D2AA10D85E2C0C33CBA0BC6A1 /* Pods-iReadEpub_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-iReadEpub_Example"; path = Pods_iReadEpub_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F92177D2AA10D85E2C0C33CBA0BC6A1 /* Pods_iReadEpub_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iReadEpub_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72BF632DA4542CCF77B5481E3E4AB841 /* iReadEpub.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = iReadEpub.modulemap; sourceTree = "<group>"; };
 		75AAB243E261A8B287EBC36F2A8D7AB9 /* Fuzi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Fuzi.release.xcconfig; sourceTree = "<group>"; };
 		797B1BBC3E03CD39B8CB79D79BCFF843 /* DifferenceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DifferenceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -845,6 +845,7 @@
 		5C2039170E1D46EA9C0E1A54551D8109 /* iReadEpub */ = {
 			isa = PBXGroup;
 			children = (
+				C5C18E3F2AD8A1850065404F /* Resources */,
 				C5C18BBE2AD731550065404F /* Source */,
 				0F6CAD7C21A626AEF6D06936B64878D1 /* Pod */,
 				B2DE2993968AB3D321C4E2B9801C15E8 /* Support Files */,
@@ -976,7 +977,6 @@
 				C5C18BC52AD737980065404F /* OPDS */,
 				C5C18BCF2AD737980065404F /* Logger */,
 				C5C18BD32AD737980065404F /* Publication */,
-				C5C18C1D2AD737980065404F /* Resources */,
 				C5C18C1E2AD737980065404F /* Fetcher */,
 				C5C18C302AD737980065404F /* Toolkit */,
 				C5C18C702AD737980065404F /* RootFile.swift */,
@@ -1222,13 +1222,6 @@
 				C5C18C1B2AD737980065404F /* UserSettings+ReadiumCSS.swift */,
 			);
 			path = "User Settings";
-			sourceTree = "<group>";
-		};
-		C5C18C1D2AD737980065404F /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		C5C18C1E2AD737980065404F /* Fetcher */ = {
@@ -1523,19 +1516,18 @@
 				C5C18C9E2AD737980065404F /* UserSettings.swift */,
 				C5C18C9F2AD737980065404F /* HTMLDecorationTemplate.swift */,
 				C5C18CA02AD737980065404F /* EPUBSpread.swift */,
-				C5C18CA12AD737980065404F /* Assets */,
 			);
 			path = EPUB;
 			sourceTree = "<group>";
 		};
-		C5C18CA12AD737980065404F /* Assets */ = {
+		C5C18CA12AD737980065404F /* R2Navigator_Sources_Navigator_EPUB_Assets */ = {
 			isa = PBXGroup;
 			children = (
 				C5C18CA22AD737980065404F /* fxl-spread-one.html */,
 				C5C18CA32AD737980065404F /* Static */,
 				C5C18CBF2AD737980065404F /* fxl-spread-two.html */,
 			);
-			path = Assets;
+			path = R2Navigator_Sources_Navigator_EPUB_Assets;
 			sourceTree = "<group>";
 		};
 		C5C18CA32AD737980065404F /* Static */ = {
@@ -1666,7 +1658,6 @@
 				C5C18CD02AD737980065404F /* Parser */,
 				C5C18CF32AD737980065404F /* Model */,
 				C5C18CF72AD737980065404F /* Streamer.swift */,
-				C5C18CF82AD737980065404F /* Assets */,
 				C5C18CFB2AD737980065404F /* Toolkit */,
 			);
 			path = Streamer;
@@ -1802,12 +1793,12 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		C5C18CF82AD737980065404F /* Assets */ = {
+		C5C18CF82AD737980065404F /* R2Streamer_Sources_Streamer_Assets */ = {
 			isa = PBXGroup;
 			children = (
 				C5C18CF92AD737980065404F /* fonts */,
 			);
-			path = Assets;
+			path = R2Streamer_Sources_Streamer_Assets;
 			sourceTree = "<group>";
 		};
 		C5C18CF92AD737980065404F /* fonts */ = {
@@ -1935,6 +1926,15 @@
 			path = Requests;
 			sourceTree = "<group>";
 		};
+		C5C18E3F2AD8A1850065404F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C5C18CF82AD737980065404F /* R2Streamer_Sources_Streamer_Assets */,
+				C5C18CA12AD737980065404F /* R2Navigator_Sources_Navigator_EPUB_Assets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
@@ -1953,8 +1953,8 @@
 				797B1BBC3E03CD39B8CB79D79BCFF843 /* DifferenceKit.framework */,
 				1A7C2E118BAA3348A5A31EAC9A3B2EE2 /* Fuzi.framework */,
 				E141092966A60588A38D95E4CDCBDDDE /* iReadEpub.framework */,
-				6F92177D2AA10D85E2C0C33CBA0BC6A1 /* Pods-iReadEpub_Example */,
-				53403D33C5E5028A91EA92C6C7B27C7C /* Pods-iReadEpub_Tests */,
+				6F92177D2AA10D85E2C0C33CBA0BC6A1 /* Pods_iReadEpub_Example.framework */,
+				53403D33C5E5028A91EA92C6C7B27C7C /* Pods_iReadEpub_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2057,7 +2057,7 @@
 			);
 			name = "Pods-iReadEpub_Tests";
 			productName = Pods_iReadEpub_Tests;
-			productReference = 53403D33C5E5028A91EA92C6C7B27C7C /* Pods-iReadEpub_Tests */;
+			productReference = 53403D33C5E5028A91EA92C6C7B27C7C /* Pods_iReadEpub_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8FC6E51285E4FD828A61BEFD2100CD64 /* DifferenceKit */ = {
@@ -2112,7 +2112,7 @@
 			);
 			name = "Pods-iReadEpub_Example";
 			productName = Pods_iReadEpub_Example;
-			productReference = 6F92177D2AA10D85E2C0C33CBA0BC6A1 /* Pods-iReadEpub_Example */;
+			productReference = 6F92177D2AA10D85E2C0C33CBA0BC6A1 /* Pods_iReadEpub_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -2578,7 +2578,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-iReadEpub_Tests/Pods-iReadEpub_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-iReadEpub_Tests/Pods-iReadEpub_Tests.modulemap";
@@ -2735,7 +2735,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-iReadEpub_Example/Pods-iReadEpub_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-iReadEpub_Example/Pods-iReadEpub_Example.modulemap";
@@ -2865,7 +2865,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-iReadEpub_Example/Pods-iReadEpub_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-iReadEpub_Example/Pods-iReadEpub_Example.modulemap";
@@ -2960,7 +2960,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-iReadEpub_Tests/Pods-iReadEpub_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-iReadEpub_Tests/Pods-iReadEpub_Tests.modulemap";
