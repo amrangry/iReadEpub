@@ -75,10 +75,3 @@ extension FileAsset: CustomStringConvertible {
     }
     
 }
-
-
-/// Represents a path on the file system.
-///
-/// Used to cache the `MediaType` to avoid computing it at different locations.
-@available(*, unavailable, renamed: "FileAsset")
-public typealias File = FileAsset

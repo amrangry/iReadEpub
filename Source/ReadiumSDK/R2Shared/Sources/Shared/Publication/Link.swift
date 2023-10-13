@@ -300,19 +300,4 @@ extension Array where Element == Link {
         }
     }
     
-    @available(*, unavailable, message: "This API will be removed.")
-    public func firstIndex<T: Equatable>(withProperty otherProperty: String, matching: T, recursively: Bool = false) -> Int? {
-        return firstIndex { ($0.properties.otherProperties[otherProperty] as? T) == matching }
-    }
-    
-    @available(*, unavailable, renamed: "first(withHREF:)")
-    public func first(withHref href: String) -> Link? {
-        return first(withHREF: href)
-    }
-    
-    @available(*, unavailable, renamed: "firstIndex(withHREF:)")
-    public func firstIndex(withHref href: String) -> Int? {
-        return firstIndex(withHREF: href)
-    }
-    
 }

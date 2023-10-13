@@ -181,6 +181,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Fuzi/Fuzi.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Minizip/Minizip.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/GCDWebServer/GCDWebServer.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework"
@@ -188,6 +189,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Fuzi/Fuzi.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Minizip/Minizip.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/GCDWebServer/GCDWebServer.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

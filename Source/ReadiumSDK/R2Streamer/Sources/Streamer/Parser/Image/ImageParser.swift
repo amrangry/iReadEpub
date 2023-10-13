@@ -72,10 +72,5 @@ public final class ImageParser: PublicationParser {
             || filename.hasPrefix(".")
             || filename == "Thumbs.db"
     }
-    
-    @available(*, unavailable, message: "Not supported for `ImageParser`")
-    public static func parse(at url: URL) throws -> (PubBox, PubParsingCallback) {
-        fatalError("Not supported for `ImageParser`")
-    }
 
 }

@@ -35,11 +35,6 @@ public enum EPUBParserError: Error {
     case missingRootfile
 }
 
-@available(*, unavailable, renamed: "EPUBParserError")
-public typealias EpubParserError = EPUBParserError
-
-@available(*, unavailable, renamed: "EPUBParser")
-public typealias EpubParser = EPUBParser
 
 extension EPUBParser: Loggable {}
 
@@ -98,11 +93,6 @@ final public class EPUBParser: PublicationParser {
                 publication.userSettingsUIPreset = Self.userSettingsPreset(for: publication.metadata)
             }
         )
-    }
-    
-    @available(*, unavailable, message: "Use an instance of `Streamer` to open a `Publication`")
-    static public func parse(at url: URL) throws -> (PubBox, PubParsingCallback) {
-        fatalError("Not available")
     }
     
     private func parseCollections(in fetcher: Fetcher, links: [Link]) -> [String: [PublicationCollection]] {

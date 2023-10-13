@@ -158,46 +158,4 @@ public struct DocumentType: Equatable, Loggable {
             ?? mediaTypes.first
     }
 
-    @available(*, unavailable, renamed: "preferredMediaType")
-    public var format: MediaType? { preferredMediaType }
-
-}
-
-
-// MARK: Deprecated
-
-extension DocumentTypes {
-    
-    // See this commit for an example of the changes to do in your reading app:
-    // https://github.com/readium/r2-testapp-swift/commit/7e98784c01f781c962aab87cd79af09dde900b00
-    
-    @available(*, unavailable, message: "Use `main.utis` instead", renamed: "main.supportedUTIs")
-    public static let utis: [String] = main.supportedUTIs
-    @available(*, unavailable, message: "Use `main.supportsMediaType()` instead", renamed: "main.supportsMediaType()")
-    public static let contentTypes: [String] = main.supportedMediaTypes.map { $0.string }
-    @available(*, unavailable, message: "Use `main.supportsFileExtension()` instead", renamed: "main.supportsFileExtension()")
-    public static let extensions: [String] = main.supportedFileExtensions
-    
-    /// Returns the content type for the given URL.
-    @available(*, unavailable, message: "Use `Format.of` to determine the format of a file from its media type or file extension")
-    public static func contentType(for url: URL?) -> String? { nil }
-    
-    /// Returns the content type for the given document extension.
-    @available(*, unavailable, message: "Use `Format.of` to determine the format of a file from its media type or file extension")
-    public static func contentType(forExtension ext: String?) -> String? {
-        guard let fileExtension = ext else {
-            return nil
-        }
-        return MediaType.of(fileExtension: fileExtension)?.string
-    }
-    
-    /// Returns the document extension for given content type.
-    @available(*, unavailable, message: "Use `Format.of` to determine the format of a file from its media type or file extension")
-    public static func `extension`(forContentType contentType: String?) -> String? {
-        guard let mediaType = contentType else {
-            return nil
-        }
-        return MediaType.of(mediaType: mediaType)?.fileExtension
-    }
-
 }

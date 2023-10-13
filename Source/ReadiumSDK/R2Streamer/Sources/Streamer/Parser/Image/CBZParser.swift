@@ -15,16 +15,3 @@ import Foundation
 public enum CBZParserError: Error {
     case invalidCBZ(path: String)
 }
-
-@available(*, unavailable, renamed: "CBZParserError")
-public typealias CbzParserError = CBZParserError
-
-/// CBZ publication parsing class.
-@available(*, unavailable, message: "Use `ImageParser` instead")
-public class CbzParser: PublicationParser {
-    
-    public func parse(asset: PublicationAsset, fetcher: Fetcher, warnings: WarningLogger?) throws -> Publication.Builder? {
-        return try ImageParser().parse(asset: asset, fetcher: fetcher, warnings: warnings)
-    }
-
-}

@@ -73,15 +73,5 @@ public final class PDFParser: PublicationParser, Loggable {
             )
         )
     }
-    
-    @available(*, unavailable, message: "Use `init(pdfFactory:)` instead")
-    public convenience init(parserType: PDFFileParser.Type) {
-        self.init(pdfFactory: PDFFileParserFactory(parserType: parserType))
-    }
-
-    @available(*, unavailable, message: "Use an instance of `Streamer` to open a `Publication`")
-    public static func parse(at url: URL) throws -> (PubBox, PubParsingCallback) {
-        fatalError("Not available")
-    }
 
 }

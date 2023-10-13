@@ -232,11 +232,6 @@ public class Publication: Loggable {
                 self = .unknown
             }
         }
-        
-        @available(*, unavailable, renamed: "init(file:)")
-        public init(url: URL) {
-            self.init(file: url)
-        }
 
     }
     

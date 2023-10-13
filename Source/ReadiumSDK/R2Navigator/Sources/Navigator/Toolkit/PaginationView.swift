@@ -129,11 +129,6 @@ final class PaginationView: UIView, Loggable {
         }
     }
     
-    @available(*, unavailable)
-    public required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-    
     public override func layoutSubviews() {
         guard !loadedViews.isEmpty else {
             scrollView.contentSize = bounds.size

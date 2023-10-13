@@ -197,19 +197,6 @@ public struct Locator: Hashable, CustomStringConvertible, Loggable {
         /// Syntactic sugar to access the `otherLocations` values by subscripting `Locations` directly.
         /// locations["cssSelector"] == locations.otherLocations["cssSelector"]
         public subscript(key: String) -> Any? { otherLocations[key] }
-
-        @available(*, unavailable, renamed: "init(jsonString:)")
-        public init(fromString: String) {
-            fatalError()
-        }
-        
-        @available(*, unavailable, renamed: "jsonString")
-        public func toString() -> String? {
-            fatalError()
-        }
-        
-        @available(*, unavailable, message: "Use `fragments.first` instead")
-        public var fragment: String? { fragments.first }
         
     }
     
@@ -289,16 +276,6 @@ public struct Locator: Hashable, CustomStringConvertible, Loggable {
                 before: Optional(before).takeIf { !$0.isEmpty },
                 highlight: Optional(String(newHighlight)).takeIf { !$0.isEmpty }
             )
-        }
-
-        @available(*, unavailable, renamed: "init(jsonString:)")
-        public init(fromString: String) {
-            fatalError()
-        }
-        
-        @available(*, unavailable, renamed: "jsonString")
-        public func toString() -> String? {
-            fatalError()
         }
         
     }

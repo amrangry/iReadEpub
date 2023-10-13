@@ -11,9 +11,7 @@
 
 import Foundation
 import UIKit
-//import GCDWebServer
-//import R2Shared
-
+import GCDWebServer
 
 extension PublicationServer: Loggable {}
 
@@ -366,14 +364,5 @@ public class PublicationServer: ResourcesServer {
         assert(file.pathExtension.lowercased() != "css" || contentType == "text/css")
         return GCDWebServerDataResponse(data: data, contentType: contentType)
     }
-    
-    @available(*, unavailable, message: "Passing a `Container` is not needed anymore")
-    public func add(_ publication: Publication, with container: Container, at endpoint: String = UUID().uuidString) throws {
-        try add(publication, at: endpoint)
-    }
-    
-    // Mapping between endpoint and the matching container.
-    // @available(*, unavailable, message: "`Container` is not used anymore in the `PublicationServer")
-    //  public private(set) var containers: [String: Container] = [:]
     
 }
