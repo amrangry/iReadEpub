@@ -43,20 +43,12 @@ final class EPUBFixedSpreadView: EPUBSpreadView {
         
         // Loads the wrapper page into the web view.
         let spreadFile = "fxl-spread-\(spread.pageCount.rawValue)"
-        var resourceURL = URL(string: "https://www.adkatech.com")
-        resourceURL = Bundle.module.resourceURL
-//#if !SWIFT_PACKAGE
-//#if COCOAPODS
-//        resourceURL = Bundle.module.resourceURL?.appendingPathComponent("Assets")
-//#else
-//        resourceURL = Bundle.module.resourceURL
-//#endif
-//#endif
-        if let wrapperPageURL = resourceURL, let wrapperPage = try? String(contentsOf: wrapperPageURL, encoding: .utf8) {
+        if let wrapperPageURL = Bundle.module.url(forResource: spreadFile, withExtension: "html", subdirectory: "Assets"), let wrapperPage = try? String(contentsOf: wrapperPageURL, encoding: .utf8) {
             // The publication's base URL is used to make sure we can access the resources through the iframe with JavaScript.
             webView.loadHTMLString(wrapperPage, baseURL: publication.baseURL)
         }
     }
+    
     
     override func layoutSubviews() {
         super.layoutSubviews()

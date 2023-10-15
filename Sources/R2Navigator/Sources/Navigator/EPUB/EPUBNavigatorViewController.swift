@@ -228,24 +228,14 @@ open class EPUBNavigatorViewController: UIViewController, VisualNavigator, Selec
         self.paginationView = PaginationView(frame: .zero, preloadPreviousPositionCount: config.preloadPreviousPositionCount, preloadNextPositionCount: config.preloadNextPositionCount)
         
         self.resourcesURL = {
-            let bundle = Bundle.module
-            var resourceURL = URL(string: "https://www.adkatech.com")
-            let defaultURL = resourceURL!
-            resourceURL = Bundle.module.resourceURL
-            //    #if !SWIFT_PACKAGE
-            //    #if COCOAPODS
-            //            resourceURL = Bundle.module.resourceURL?.appendingPathComponent("Assets")
-            //    #else
-            //            resourceURL = Bundle.module.resourceURL
-            //    #endif
-            //    #endif
             do {
-                guard let url = resourceURL else { return defaultURL }
-                let serve = try resourcesServer.serve( url, at: "/r2-navigator/epub")
-                return serve
+                return try resourcesServer.serve(
+                    Bundle.module.resourceURL!.appendingPathComponent("Assets/Static"),
+                    at: "/r2-navigator/epub"
+                )
             } catch {
                 EPUBNavigatorViewController.log(.error, error)
-                return defaultURL
+                return URL(string: "")!
             }
         }()
         

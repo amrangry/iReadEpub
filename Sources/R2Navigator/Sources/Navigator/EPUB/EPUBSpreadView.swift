@@ -421,17 +421,15 @@ class EPUBSpreadView: UIView, Loggable, PageView {
     // MARK: - Scripts
     
     class func loadScript(named name: String) -> String {
-        let source = Bundle.module.url(forResource: "\(name)", withExtension: "js").flatMap { try? String(contentsOf: $0) }!
-        return source
-        //#if !SWIFT_PACKAGE
-        //#if COCOAPODS
-        //        let source = Bundle.module.url(forResource: "\(name)", withExtension: "js", subdirectory: "Assets/Static/scripts").flatMap { try? String(contentsOf: $0) }!
-        //        return source
-        //#else
-        //        let source = Bundle.module.url(forResource: "\(name)", withExtension: "js").flatMap { try? String(contentsOf: $0) }!
-        //        return source
-        //#endif
-        //#endif
+        #if !SWIFT_PACKAGE
+        #if COCOAPODS
+                let source = Bundle.module.url(forResource: "\(name)", withExtension: "js", subdirectory: "Assets/Static/scripts").flatMap { try? String(contentsOf: $0) }!
+                return source
+        #else
+                let source = Bundle.module.url(forResource: "\(name)", withExtension: "js").flatMap { try? String(contentsOf: $0) }!
+                return source
+        #endif
+        #endif
     }
     
 }

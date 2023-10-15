@@ -158,24 +158,13 @@ public class PublicationServer: ResourcesServer {
     
     // Add handlers for the static resources.
     public func addStaticResourcesHandlers() {
-        
-        var resourceURL = URL(string: "https://www.adkatech.com")
-        resourceURL = Bundle.module.resourceURL
-//#if !SWIFT_PACKAGE
-//#if COCOAPODS
-//        resourceURL = Bundle.module.resourceURL?.appendingPathComponent("Assets")
-//#else
-//        resourceURL = Bundle.module.resourceURL
-//#endif
-//#endif
-        guard let resourceURL = resourceURL else {
+        guard let resourceURL = Bundle.module.resourceURL?.appendingPathComponent("Assets") else {
             return
         }
         
         for resource in ["fonts"] {
             do {
-                let url = resourceURL.appendingPathComponent(resource)
-                try serve(url, at: "/\(resource)")
+                try serve(resourceURL.appendingPathComponent(resource), at: "/\(resource)")
             } catch {
                 log(.error, error)
             }
