@@ -48,13 +48,13 @@ Pod::Spec.new do |s|
     #  }
     s.resource_bundles = {
         'AssetsHtml' => [
-        'Assets/htmls'
+        'Assets/Assets/htmls'
         ],
         'AssetsStatic' => [
-        'Assets/Static'
+        'Assets/Assets/Static'
         ],
         'AssetsFonts' => [
-        'Assets/fonts'
+        'Assets/Assets/fonts'
         ],
     }
     

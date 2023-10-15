@@ -3209,9 +3209,7 @@
 		C58BFE5B2ADC766700F62130 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				C58BFECC2ADC78A200F62130 /* htmls */,
-				C58BFE5D2ADC766700F62130 /* Static */,
-				C58BFE7B2ADC766700F62130 /* fonts */,
+				C58BFECD2ADC832600F62130 /* Assets */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -3297,6 +3295,16 @@
 				C58BFE5C2ADC766700F62130 /* fxl-spread-one.html */,
 			);
 			path = htmls;
+			sourceTree = "<group>";
+		};
+		C58BFECD2ADC832600F62130 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C58BFE7B2ADC766700F62130 /* fonts */,
+				C58BFE5D2ADC766700F62130 /* Static */,
+				C58BFECC2ADC78A200F62130 /* htmls */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		CBC138B31EF0661155EB7FAD31CCA199 /* DifferenceKit */ = {
