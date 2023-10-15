@@ -171,6 +171,7 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				DE6999F2A45254C39B551B63 /* [CP] Embed Pods Frameworks */,
+				21D34785E78A5E577F9072B5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -262,6 +263,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		21D34785E78A5E577F9072B5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iReadEpub_Example/Pods-iReadEpub_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/iReadEpub/iReadEpub.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/iReadEpub.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iReadEpub_Example/Pods-iReadEpub_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2F8031A04999C55F6C25F18E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -319,7 +338,6 @@
 				"${BUILT_PRODUCTS_DIR}/GCDWebServer/GCDWebServer.framework",
 				"${BUILT_PRODUCTS_DIR}/Minizip/Minizip.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework",
-				"${BUILT_PRODUCTS_DIR}/iReadEpub/iReadEpub.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -329,7 +347,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GCDWebServer.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Minizip.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSoup.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iReadEpub.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

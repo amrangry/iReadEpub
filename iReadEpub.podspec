@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'iReadEpub'
-    s.version          = '0.1.9'
+    s.version          = '0.2.0'
     s.summary          = 'iReadEpub is aswiftly lib for Epub reading'
     
     # This description is used to generate tags and improve search results.
@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
     # s.source        = { :git => "https://github.com/readium/swift-toolkit.git", :tag => "2.4.0" }
     # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
     
-   # s.platforms = { "ios": "14.0" }
+    # s.platforms = { "ios": "14.0" }
     s.platform      = :ios
     s.ios.deployment_target = '14.0'
     s.swift_version = '5.0'
@@ -40,13 +40,14 @@ Pod::Spec.new do |s|
     
     #  s.default_subspec  = 'App'
     #  s.subspec 'App' do |app|
-    #      app.source_files = 'SwiftMessages/**/*.swift'
-    #      app.resource_bundles = {'iReadEpub' => ['iReadEpub/Resources/*.*']}
+    #      app.source_files = 'Sources/**/*.*'
+    #      app.resource_bundles = {'iReadEpub' => ['Assets/*.*']}
     #  end
     
     # s.source_files = 'Classes/*'
-     s.source_files  = "Sources/ReadiumSDK/**/*.{m,h,swift}"
+    # s.source_files  = "Sources/**/*.{m,h,swift}"
     # s.source_files = 'Sources/**/*'
+    s.source_files = 'Sources/**/*'
     s.resource_bundles = {
         'iReadEpub' => ['Assets/*.*']
     }

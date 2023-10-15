@@ -1,8 +1,8 @@
 {
   "name": "iReadEpub",
-  "version": "0.1.8",
-  "summary": "iReadEpub is aswiftly lib for Epub reading.",
-  "description": "description of the pod: iReadEpub is aswiftly lib for Epub reading.",
+  "version": "0.1.9",
+  "summary": "iReadEpub is aswiftly lib for Epub reading",
+  "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/amrangry/iReadEpub",
   "license": {
     "type": "MIT",
@@ -13,22 +13,25 @@
   },
   "source": {
     "git": "https://github.com/amrangry/iReadEpub.git",
-    "tag": "0.1.8"
+    "tag": "0.1.9"
   },
   "platforms": {
     "ios": "14.0"
   },
   "swift_versions": "5.0",
-  "source_files": "iReadEpub/Classes/**/*",
+  "requires_arc": true,
+  "source_files": "Classes/**/*",
   "resource_bundles": {
     "iReadEpub": [
-      "iReadEpub/Assets/*.*"
+      "Assets/*.*"
     ]
   },
   "frameworks": [
+    "Foundation",
     "UIKit",
     "WebKit",
-    "SafariServices"
+    "SafariServices",
+    "CoreServices"
   ],
   "dependencies": {
     "Fuzi": [

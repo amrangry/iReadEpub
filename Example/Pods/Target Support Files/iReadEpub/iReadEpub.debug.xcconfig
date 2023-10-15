@@ -3,7 +3,7 @@ CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/iReadEpub
 FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CryptoSwift" "${PODS_CONFIGURATION_BUILD_DIR}/DifferenceKit" "${PODS_CONFIGURATION_BUILD_DIR}/Fuzi" "${PODS_CONFIGURATION_BUILD_DIR}/GCDWebServer" "${PODS_CONFIGURATION_BUILD_DIR}/Minizip" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftSoup"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 LIBRARY_SEARCH_PATHS = $(inherited) "${DT_TOOLCHAIN_DIR}/usr/lib/swift/${PLATFORM_NAME}" /usr/lib/swift
-OTHER_LDFLAGS = $(inherited) -framework "CFNetwork" -framework "CryptoSwift" -framework "DifferenceKit" -framework "Fuzi" -framework "GCDWebServer" -framework "Minizip" -framework "MobileCoreServices" -framework "SafariServices" -framework "SwiftSoup" -framework "UIKit" -framework "WebKit"
+OTHER_LDFLAGS = $(inherited) -framework "CoreServices" -framework "Foundation" -framework "SafariServices" -framework "UIKit" -framework "WebKit"
 OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
