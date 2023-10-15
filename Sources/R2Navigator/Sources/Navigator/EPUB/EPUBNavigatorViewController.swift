@@ -8,7 +8,6 @@ import UIKit
 import WebKit
 import SafariServices
 import SwiftSoup
-//import R2Shared
 
 public protocol EPUBNavigatorDelegate: VisualNavigatorDelegate, SelectableNavigatorDelegate {
 
