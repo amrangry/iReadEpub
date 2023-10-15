@@ -52,7 +52,7 @@ Pod::Spec.new do |s|
         'iReadEpub' => ['Assets/*.*']
     }
     
-    s.frameworks = 'Foundation', 'UIKit', 'WebKit', 'SafariServices', 'CoreServices'
+    s.frameworks = 'Foundation', 'UIKit', 'AVFoundation', 'CoreGraphics', 'WebKit', 'SafariServices', 'CoreServices', 'PDFKit'
     
     s.dependency 'Fuzi' , '~> 3.1.3'
     s.dependency 'DifferenceKit' , '~> 1.3.0'
