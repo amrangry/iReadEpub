@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'iReadEpub'
-  s.version          = '0.2.3'
+  s.version          = '0.2.4'
   s.summary          = 'iReadEpub is aswiftly lib for Epub reading'
   
   # This description is used to generate tags and improve search results.
@@ -33,43 +33,22 @@ Pod::Spec.new do |s|
   s.platform      = :ios
   s.ios.deployment_target = '14.0'
   s.swift_version = '5.0'
-  
   s.requires_arc     = true
-  
-  #  s.public_header_files = 'Pod/Classes/**/*.h'
-  
-  #  s.default_subspec  = 'App'
-  #  s.subspec 'App' do |app|
-  #      app.source_files = 'Sources/**/*.*'
-  #      app.resource_bundles = {'iReadEpub' => ['Assets/*.*']}
-  #  end
-  
-  # s.source_files = 'Classes/*'
-  # s.source_files = "Sources/**/*.{m,h,swift}"
-  # s.source_files = 'Sources/**/*'
-  s.source_files = 'Sources/**/*'
-  s.resource_bundles = {
-    'iReadEpub' => ['iReadEpub/Assets/**/*.*']
-  }
-  
+
+#  s.source_files = 'Sources/**/*'
 #  s.resource_bundles = {
-#      'iReadEpub' => [
-#        'Sources/Streamer/Resources/**',
-#        'Sources/Streamer/Assets',
-#      ],
+#    'iReadEpub' => ['iReadEpub/Assets/**/*.*']
 #  }
-#s.resource_bundles = {
-#   'ReadiumShared' => ['Sources/Shared/Resources/**'],
-# }
-#s.resource_bundles = {
-#  'ReadiumNavigator' => [
-#    'Sources/Navigator/Resources/**',
-#    'Sources/Navigator/EPUB/Assets',
-#  ],
-#}
-#s.resource_bundles = {
-#  'ReadiumOPDS' => ['Sources/OPDS/Resources/**'],
-#}
+  
+  s.default_subspecs = 'Core', 'Assets'
+  
+  s.subspec 'Core' do |subspec|
+    subspec.source_files = 'Sources/**/*'
+  end
+  
+  s.subspec 'Assets' do |subspec|
+    s.resource_bundles = 'Assets/**/*.*'
+  end
   
   s.frameworks = 'Foundation', 'UIKit', 'AVFoundation', 'CoreGraphics', 'WebKit', 'SafariServices', 'CoreServices', 'PDFKit'
   
