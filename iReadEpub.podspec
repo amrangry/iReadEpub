@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
     
     s.requires_arc     = true
     
-    s.public_header_files = 'Pod/Classes/**/*.h'
+    #  s.public_header_files = 'Pod/Classes/**/*.h'
     
     #  s.default_subspec  = 'App'
     #  s.subspec 'App' do |app|
@@ -44,11 +44,10 @@ Pod::Spec.new do |s|
     #      app.resource_bundles = {'iReadEpub' => ['iReadEpub/Resources/*.*']}
     #  end
     
-    #s.source_files = 'iReadEpub/Classes/**/*'
-    s.source_files = 'Source/**/*'
-    
+   # s.source_files = 'Classes/*'
+    s.source_files = 'iReadEpub/Classes/**/*'
     s.resource_bundles = {
-        'iReadEpub' => ['iReadEpub/Resources/*.*']
+        'iReadEpub' => ['Assets/*.*']
     }
     
     s.frameworks = 'UIKit', 'WebKit', 'SafariServices'
