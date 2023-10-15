@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'iReadEpub'
-  s.version          = '0.2.6'
+  s.version          = '0.2.7'
   s.summary          = 'iReadEpub is aswiftly lib for Epub reading'
   
   # This description is used to generate tags and improve search results.
@@ -34,15 +34,48 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '14.0'
   s.swift_version = '5.0'
   s.requires_arc     = true
+  
+  #s.libraries     =  'z', 'xml2'
+  #s.xcconfig      = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
+  #  s.exclude_files = 'test.js', '**/test.js', 'submodules/extenalProj/test.js', 'submodules/extenalProj/**/test.js'
+  #  s.exclude_files = ["Sources/Shared/Toolkit/Archive/ZIPFoundation.swift"]
 
-#  s.source_files = 'Sources/**/*'
 #  s.resource_bundles = {
 #    'iReadEpub' => ['iReadEpub/Assets/**/*.*']
 #  }
+#  s.resource_bundles = {
+#    'iReadEpub' => ['Assets/**/*.{html,css,js,otf,ttf}']
+#  }
+  #'Sources/Navigator/Resources/**'
   s.resource_bundles = {
-    'iReadEpub' => ['Assets/**/*']
+    'AssetsHtml' => [
+      'Assets/htmls'
+    ],
+    'AssetsStatic' => [
+      'Assets/Static'
+    ],
+    'AssetsFonts' => [
+      'Assets/fonts'
+    ],
   }
+  
 
+  
+  
+#  s.resource_bundles = {
+#     'ReadiumStreamer' => [
+#       'Sources/Streamer/Resources/**',
+#       'Sources/Streamer/Assets',
+#     ],
+#   }
+#  
+#   s.resource_bundles = {
+#     'ReadiumShared' => ['Sources/Shared/Resources/**'],
+#   }
+    
+
+
+  #  s.source_files = 'Sources/**/*'
   s.default_subspecs = 'Sources'
   s.subspec 'Sources' do |subspec|
    # subspec.source_files = 'Sources/**/*'
