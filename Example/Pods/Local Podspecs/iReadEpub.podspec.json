@@ -1,8 +1,8 @@
 {
   "name": "iReadEpub",
-  "version": "0.1.7",
-  "summary": "iReadEpub is aswiftly lib for Epub reading",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.1.8",
+  "summary": "iReadEpub is aswiftly lib for Epub reading.",
+  "description": "description of the pod: iReadEpub is aswiftly lib for Epub reading.",
   "homepage": "https://github.com/amrangry/iReadEpub",
   "license": {
     "type": "MIT",
@@ -13,14 +13,18 @@
   },
   "source": {
     "git": "https://github.com/amrangry/iReadEpub.git",
-    "tag": "0.1.7"
+    "tag": "0.1.8"
   },
   "platforms": {
     "ios": "14.0"
   },
   "swift_versions": "5.0",
-  "requires_arc": true,
-  "public_header_files": "Pod/Classes/**/*.h",
+  "source_files": "iReadEpub/Classes/**/*",
+  "resource_bundles": {
+    "iReadEpub": [
+      "iReadEpub/Assets/*.*"
+    ]
+  },
   "frameworks": [
     "UIKit",
     "WebKit",
@@ -41,12 +45,9 @@
     ],
     "Minizip": [
       "~> 1.0.0"
-    ]
-  },
-  "source_files": "Source/**/*",
-  "resource_bundles": {
-    "iReadEpub": [
-      "iReadEpub/Resources/*.*"
+    ],
+    "GCDWebServer": [
+      "~> 3.5.4"
     ]
   },
   "swift_version": "5.0"
