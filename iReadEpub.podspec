@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'iReadEpub'
-  s.version          = '0.2.5'
+  s.version          = '0.2.6'
   s.summary          = 'iReadEpub is aswiftly lib for Epub reading'
   
   # This description is used to generate tags and improve search results.
@@ -45,7 +45,8 @@ Pod::Spec.new do |s|
 
   s.default_subspecs = 'Sources'
   s.subspec 'Sources' do |subspec|
-    subspec.source_files = 'Sources/**/*'
+   # subspec.source_files = 'Sources/**/*'
+   subspec.source_files = 'Sources/**/*.{m,h,swift}'
   end
   
   s.frameworks = 'Foundation', 'UIKit', 'AVFoundation', 'CoreGraphics', 'WebKit', 'SafariServices', 'CoreServices', 'PDFKit'
