@@ -39,15 +39,16 @@ Pod::Spec.new do |s|
 #  s.resource_bundles = {
 #    'iReadEpub' => ['iReadEpub/Assets/**/*.*']
 #  }
+
+
+  s.resource_bundles = {
+    'iReadEpub' => ['iReadEpub/Assets/**/*']
+  }
   
   s.default_subspecs = 'Core', 'Assets'
   
   s.subspec 'Core' do |subspec|
     subspec.source_files = 'Sources/**/*'
-  end
-  
-  s.subspec 'Assets' do |subspec|
-    subspec.source_files = 'Assets/**/*.*'
   end
   
   s.frameworks = 'Foundation', 'UIKit', 'AVFoundation', 'CoreGraphics', 'WebKit', 'SafariServices', 'CoreServices', 'PDFKit'
