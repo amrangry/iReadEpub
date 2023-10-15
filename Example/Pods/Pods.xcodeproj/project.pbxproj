@@ -970,84 +970,84 @@
 		C522B0B82ADC217E00444902 /* DataCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = C522ADD52ADC217C00444902 /* DataCompression.swift */; };
 		C522B0B92ADC217E00444902 /* DataCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = C522ADD52ADC217C00444902 /* DataCompression.swift */; };
 		C54419D2212F2F4444DEAF99C25B0594 /* AEAD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B583B0A8290F707ABD8906A34039659 /* AEAD.swift */; };
-		C5A777FB2ADC4B4A00ECADC7 /* fxl-spread-one.html in Resources */ = {isa = PBXBuildFile; fileRef = C5A777D92ADC4B4A00ECADC7 /* fxl-spread-one.html */; };
-		C5A777FC2ADC4B4A00ECADC7 /* fxl-spread-one.html in Resources */ = {isa = PBXBuildFile; fileRef = C5A777D92ADC4B4A00ECADC7 /* fxl-spread-one.html */; };
-		C5A777FD2ADC4B4A00ECADC7 /* fxl-spread-one.html in Resources */ = {isa = PBXBuildFile; fileRef = C5A777D92ADC4B4A00ECADC7 /* fxl-spread-one.html */; };
-		C5A777FE2ADC4B4A00ECADC7 /* ReadiumCSS-before.css in Resources */ = {isa = PBXBuildFile; fileRef = C5A777DC2ADC4B4A00ECADC7 /* ReadiumCSS-before.css */; };
-		C5A777FF2ADC4B4A00ECADC7 /* ReadiumCSS-before.css in Resources */ = {isa = PBXBuildFile; fileRef = C5A777DC2ADC4B4A00ECADC7 /* ReadiumCSS-before.css */; };
-		C5A778002ADC4B4A00ECADC7 /* ReadiumCSS-before.css in Resources */ = {isa = PBXBuildFile; fileRef = C5A777DC2ADC4B4A00ECADC7 /* ReadiumCSS-before.css */; };
-		C5A778012ADC4B4A00ECADC7 /* ReadiumCSS-default.css in Resources */ = {isa = PBXBuildFile; fileRef = C5A777DD2ADC4B4A00ECADC7 /* ReadiumCSS-default.css */; };
-		C5A778022ADC4B4A00ECADC7 /* ReadiumCSS-default.css in Resources */ = {isa = PBXBuildFile; fileRef = C5A777DD2ADC4B4A00ECADC7 /* ReadiumCSS-default.css */; };
-		C5A778032ADC4B4A00ECADC7 /* ReadiumCSS-default.css in Resources */ = {isa = PBXBuildFile; fileRef = C5A777DD2ADC4B4A00ECADC7 /* ReadiumCSS-default.css */; };
-		C5A778042ADC4B4A00ECADC7 /* ReadiumCSS-ebpaj_fonts_patch.css in Resources */ = {isa = PBXBuildFile; fileRef = C5A777DE2ADC4B4A00ECADC7 /* ReadiumCSS-ebpaj_fonts_patch.css */; };
-		C5A778052ADC4B4A00ECADC7 /* ReadiumCSS-ebpaj_fonts_patch.css in Resources */ = {isa = PBXBuildFile; fileRef = C5A777DE2ADC4B4A00ECADC7 /* ReadiumCSS-ebpaj_fonts_patch.css */; };
-		C5A778062ADC4B4A00ECADC7 /* ReadiumCSS-ebpaj_fonts_patch.css in Resources */ = {isa = PBXBuildFile; fileRef = C5A777DE2ADC4B4A00ECADC7 /* ReadiumCSS-ebpaj_fonts_patch.css */; };
-		C5A778072ADC4B4A00ECADC7 /* ReadiumCSS-before.css in Resources */ = {isa = PBXBuildFile; fileRef = C5A777E02ADC4B4A00ECADC7 /* ReadiumCSS-before.css */; };
-		C5A778082ADC4B4A00ECADC7 /* ReadiumCSS-before.css in Resources */ = {isa = PBXBuildFile; fileRef = C5A777E02ADC4B4A00ECADC7 /* ReadiumCSS-before.css */; };
-		C5A778092ADC4B4A00ECADC7 /* ReadiumCSS-before.css in Resources */ = {isa = PBXBuildFile; fileRef = C5A777E02ADC4B4A00ECADC7 /* ReadiumCSS-before.css */; };
-		C5A7780A2ADC4B4A00ECADC7 /* ReadiumCSS-default.css in Resources */ = {isa = PBXBuildFile; fileRef = C5A777E12ADC4B4A00ECADC7 /* ReadiumCSS-default.css */; };
-		C5A7780B2ADC4B4A00ECADC7 /* ReadiumCSS-default.css in Resources */ = {isa = PBXBuildFile; fileRef = C5A777E12ADC4B4A00ECADC7 /* ReadiumCSS-default.css */; };
-		C5A7780C2ADC4B4A00ECADC7 /* ReadiumCSS-default.css in Resources */ = {isa = PBXBuildFile; fileRef = C5A777E12ADC4B4A00ECADC7 /* ReadiumCSS-default.css */; };
-		C5A7780D2ADC4B4A00ECADC7 /* ReadiumCSS-after.css in Resources */ = {isa = PBXBuildFile; fileRef = C5A777E22ADC4B4A00ECADC7 /* ReadiumCSS-after.css */; };
-		C5A7780E2ADC4B4A00ECADC7 /* ReadiumCSS-after.css in Resources */ = {isa = PBXBuildFile; fileRef = C5A777E22ADC4B4A00ECADC7 /* ReadiumCSS-after.css */; };
-		C5A7780F2ADC4B4A00ECADC7 /* ReadiumCSS-after.css in Resources */ = {isa = PBXBuildFile; fileRef = C5A777E22ADC4B4A00ECADC7 /* ReadiumCSS-after.css */; };
-		C5A778102ADC4B4A00ECADC7 /* ReadiumCSS-after.css in Resources */ = {isa = PBXBuildFile; fileRef = C5A777E32ADC4B4A00ECADC7 /* ReadiumCSS-after.css */; };
-		C5A778112ADC4B4A00ECADC7 /* ReadiumCSS-after.css in Resources */ = {isa = PBXBuildFile; fileRef = C5A777E32ADC4B4A00ECADC7 /* ReadiumCSS-after.css */; };
-		C5A778122ADC4B4A00ECADC7 /* ReadiumCSS-after.css in Resources */ = {isa = PBXBuildFile; fileRef = C5A777E32ADC4B4A00ECADC7 /* ReadiumCSS-after.css */; };
-		C5A778132ADC4B4A00ECADC7 /* ReadMe.md in Resources */ = {isa = PBXBuildFile; fileRef = C5A777E42ADC4B4A00ECADC7 /* ReadMe.md */; };
-		C5A778142ADC4B4A00ECADC7 /* ReadMe.md in Resources */ = {isa = PBXBuildFile; fileRef = C5A777E42ADC4B4A00ECADC7 /* ReadMe.md */; };
-		C5A778152ADC4B4A00ECADC7 /* ReadMe.md in Resources */ = {isa = PBXBuildFile; fileRef = C5A777E42ADC4B4A00ECADC7 /* ReadMe.md */; };
-		C5A778162ADC4B4A00ECADC7 /* ReadiumCSS-before.css in Resources */ = {isa = PBXBuildFile; fileRef = C5A777E62ADC4B4A00ECADC7 /* ReadiumCSS-before.css */; };
-		C5A778172ADC4B4A00ECADC7 /* ReadiumCSS-before.css in Resources */ = {isa = PBXBuildFile; fileRef = C5A777E62ADC4B4A00ECADC7 /* ReadiumCSS-before.css */; };
-		C5A778182ADC4B4A00ECADC7 /* ReadiumCSS-before.css in Resources */ = {isa = PBXBuildFile; fileRef = C5A777E62ADC4B4A00ECADC7 /* ReadiumCSS-before.css */; };
-		C5A778192ADC4B4A00ECADC7 /* ReadiumCSS-default.css in Resources */ = {isa = PBXBuildFile; fileRef = C5A777E72ADC4B4A00ECADC7 /* ReadiumCSS-default.css */; };
-		C5A7781A2ADC4B4A00ECADC7 /* ReadiumCSS-default.css in Resources */ = {isa = PBXBuildFile; fileRef = C5A777E72ADC4B4A00ECADC7 /* ReadiumCSS-default.css */; };
-		C5A7781B2ADC4B4A00ECADC7 /* ReadiumCSS-default.css in Resources */ = {isa = PBXBuildFile; fileRef = C5A777E72ADC4B4A00ECADC7 /* ReadiumCSS-default.css */; };
-		C5A7781C2ADC4B4A00ECADC7 /* ReadiumCSS-after.css in Resources */ = {isa = PBXBuildFile; fileRef = C5A777E82ADC4B4A00ECADC7 /* ReadiumCSS-after.css */; };
-		C5A7781D2ADC4B4A00ECADC7 /* ReadiumCSS-after.css in Resources */ = {isa = PBXBuildFile; fileRef = C5A777E82ADC4B4A00ECADC7 /* ReadiumCSS-after.css */; };
-		C5A7781E2ADC4B4A00ECADC7 /* ReadiumCSS-after.css in Resources */ = {isa = PBXBuildFile; fileRef = C5A777E82ADC4B4A00ECADC7 /* ReadiumCSS-after.css */; };
-		C5A7781F2ADC4B4A00ECADC7 /* ReadiumCSS-before.css in Resources */ = {isa = PBXBuildFile; fileRef = C5A777EA2ADC4B4A00ECADC7 /* ReadiumCSS-before.css */; };
-		C5A778202ADC4B4A00ECADC7 /* ReadiumCSS-before.css in Resources */ = {isa = PBXBuildFile; fileRef = C5A777EA2ADC4B4A00ECADC7 /* ReadiumCSS-before.css */; };
-		C5A778212ADC4B4A00ECADC7 /* ReadiumCSS-before.css in Resources */ = {isa = PBXBuildFile; fileRef = C5A777EA2ADC4B4A00ECADC7 /* ReadiumCSS-before.css */; };
-		C5A778222ADC4B4A00ECADC7 /* ReadiumCSS-default.css in Resources */ = {isa = PBXBuildFile; fileRef = C5A777EB2ADC4B4A00ECADC7 /* ReadiumCSS-default.css */; };
-		C5A778232ADC4B4A00ECADC7 /* ReadiumCSS-default.css in Resources */ = {isa = PBXBuildFile; fileRef = C5A777EB2ADC4B4A00ECADC7 /* ReadiumCSS-default.css */; };
-		C5A778242ADC4B4A00ECADC7 /* ReadiumCSS-default.css in Resources */ = {isa = PBXBuildFile; fileRef = C5A777EB2ADC4B4A00ECADC7 /* ReadiumCSS-default.css */; };
-		C5A778252ADC4B4A00ECADC7 /* ReadiumCSS-after.css in Resources */ = {isa = PBXBuildFile; fileRef = C5A777EC2ADC4B4A00ECADC7 /* ReadiumCSS-after.css */; };
-		C5A778262ADC4B4A00ECADC7 /* ReadiumCSS-after.css in Resources */ = {isa = PBXBuildFile; fileRef = C5A777EC2ADC4B4A00ECADC7 /* ReadiumCSS-after.css */; };
-		C5A778272ADC4B4A00ECADC7 /* ReadiumCSS-after.css in Resources */ = {isa = PBXBuildFile; fileRef = C5A777EC2ADC4B4A00ECADC7 /* ReadiumCSS-after.css */; };
-		C5A778282ADC4B4A00ECADC7 /* AccessibleDfA.otf in Resources */ = {isa = PBXBuildFile; fileRef = C5A777EE2ADC4B4A00ECADC7 /* AccessibleDfA.otf */; };
-		C5A778292ADC4B4A00ECADC7 /* AccessibleDfA.otf in Resources */ = {isa = PBXBuildFile; fileRef = C5A777EE2ADC4B4A00ECADC7 /* AccessibleDfA.otf */; };
-		C5A7782A2ADC4B4B00ECADC7 /* AccessibleDfA.otf in Resources */ = {isa = PBXBuildFile; fileRef = C5A777EE2ADC4B4A00ECADC7 /* AccessibleDfA.otf */; };
-		C5A7782B2ADC4B4B00ECADC7 /* LICENSE-AccessibleDfa in Resources */ = {isa = PBXBuildFile; fileRef = C5A777EF2ADC4B4A00ECADC7 /* LICENSE-AccessibleDfa */; };
-		C5A7782C2ADC4B4B00ECADC7 /* LICENSE-AccessibleDfa in Resources */ = {isa = PBXBuildFile; fileRef = C5A777EF2ADC4B4A00ECADC7 /* LICENSE-AccessibleDfa */; };
-		C5A7782D2ADC4B4B00ECADC7 /* LICENSE-AccessibleDfa in Resources */ = {isa = PBXBuildFile; fileRef = C5A777EF2ADC4B4A00ECADC7 /* LICENSE-AccessibleDfa */; };
-		C5A7782E2ADC4B4B00ECADC7 /* iAWriterDuospace-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C5A777F02ADC4B4A00ECADC7 /* iAWriterDuospace-Regular.ttf */; };
-		C5A7782F2ADC4B4B00ECADC7 /* iAWriterDuospace-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C5A777F02ADC4B4A00ECADC7 /* iAWriterDuospace-Regular.ttf */; };
-		C5A778302ADC4B4B00ECADC7 /* iAWriterDuospace-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C5A777F02ADC4B4A00ECADC7 /* iAWriterDuospace-Regular.ttf */; };
-		C5A778312ADC4B4B00ECADC7 /* LICENSE-IaWriterDuospace.md in Resources */ = {isa = PBXBuildFile; fileRef = C5A777F12ADC4B4A00ECADC7 /* LICENSE-IaWriterDuospace.md */; };
-		C5A778322ADC4B4B00ECADC7 /* LICENSE-IaWriterDuospace.md in Resources */ = {isa = PBXBuildFile; fileRef = C5A777F12ADC4B4A00ECADC7 /* LICENSE-IaWriterDuospace.md */; };
-		C5A778332ADC4B4B00ECADC7 /* LICENSE-IaWriterDuospace.md in Resources */ = {isa = PBXBuildFile; fileRef = C5A777F12ADC4B4A00ECADC7 /* LICENSE-IaWriterDuospace.md */; };
-		C5A778342ADC4B4B00ECADC7 /* readium-fixed-wrapper-two.js in Resources */ = {isa = PBXBuildFile; fileRef = C5A777F32ADC4B4A00ECADC7 /* readium-fixed-wrapper-two.js */; };
-		C5A778352ADC4B4B00ECADC7 /* readium-fixed-wrapper-two.js in Resources */ = {isa = PBXBuildFile; fileRef = C5A777F32ADC4B4A00ECADC7 /* readium-fixed-wrapper-two.js */; };
-		C5A778362ADC4B4B00ECADC7 /* readium-fixed-wrapper-two.js in Resources */ = {isa = PBXBuildFile; fileRef = C5A777F32ADC4B4A00ECADC7 /* readium-fixed-wrapper-two.js */; };
-		C5A778372ADC4B4B00ECADC7 /* readium-fixed-wrapper-one.js in Resources */ = {isa = PBXBuildFile; fileRef = C5A777F42ADC4B4A00ECADC7 /* readium-fixed-wrapper-one.js */; };
-		C5A778382ADC4B4B00ECADC7 /* readium-fixed-wrapper-one.js in Resources */ = {isa = PBXBuildFile; fileRef = C5A777F42ADC4B4A00ECADC7 /* readium-fixed-wrapper-one.js */; };
-		C5A778392ADC4B4B00ECADC7 /* readium-fixed-wrapper-one.js in Resources */ = {isa = PBXBuildFile; fileRef = C5A777F42ADC4B4A00ECADC7 /* readium-fixed-wrapper-one.js */; };
-		C5A7783A2ADC4B4B00ECADC7 /* readium-fixed.js in Resources */ = {isa = PBXBuildFile; fileRef = C5A777F52ADC4B4A00ECADC7 /* readium-fixed.js */; };
-		C5A7783B2ADC4B4B00ECADC7 /* readium-fixed.js in Resources */ = {isa = PBXBuildFile; fileRef = C5A777F52ADC4B4A00ECADC7 /* readium-fixed.js */; };
-		C5A7783C2ADC4B4B00ECADC7 /* readium-fixed.js in Resources */ = {isa = PBXBuildFile; fileRef = C5A777F52ADC4B4A00ECADC7 /* readium-fixed.js */; };
-		C5A7783D2ADC4B4B00ECADC7 /* readium-reflowable.js in Resources */ = {isa = PBXBuildFile; fileRef = C5A777F62ADC4B4A00ECADC7 /* readium-reflowable.js */; };
-		C5A7783E2ADC4B4B00ECADC7 /* readium-reflowable.js in Resources */ = {isa = PBXBuildFile; fileRef = C5A777F62ADC4B4A00ECADC7 /* readium-reflowable.js */; };
-		C5A7783F2ADC4B4B00ECADC7 /* readium-reflowable.js in Resources */ = {isa = PBXBuildFile; fileRef = C5A777F62ADC4B4A00ECADC7 /* readium-reflowable.js */; };
-		C5A778402ADC4B4B00ECADC7 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C5A777F72ADC4B4A00ECADC7 /* .gitignore */; };
-		C5A778412ADC4B4B00ECADC7 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C5A777F72ADC4B4A00ECADC7 /* .gitignore */; };
-		C5A778422ADC4B4B00ECADC7 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C5A777F72ADC4B4A00ECADC7 /* .gitignore */; };
-		C5A778432ADC4B4B00ECADC7 /* OpenDyslexic-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = C5A777F92ADC4B4A00ECADC7 /* OpenDyslexic-Regular.otf */; };
-		C5A778442ADC4B4B00ECADC7 /* OpenDyslexic-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = C5A777F92ADC4B4A00ECADC7 /* OpenDyslexic-Regular.otf */; };
-		C5A778452ADC4B4B00ECADC7 /* OpenDyslexic-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = C5A777F92ADC4B4A00ECADC7 /* OpenDyslexic-Regular.otf */; };
-		C5A778462ADC4B4B00ECADC7 /* fxl-spread-two.html in Resources */ = {isa = PBXBuildFile; fileRef = C5A777FA2ADC4B4A00ECADC7 /* fxl-spread-two.html */; };
-		C5A778472ADC4B4B00ECADC7 /* fxl-spread-two.html in Resources */ = {isa = PBXBuildFile; fileRef = C5A777FA2ADC4B4A00ECADC7 /* fxl-spread-two.html */; };
-		C5A778482ADC4B4B00ECADC7 /* fxl-spread-two.html in Resources */ = {isa = PBXBuildFile; fileRef = C5A777FA2ADC4B4A00ECADC7 /* fxl-spread-two.html */; };
+		C58BFE7E2ADC766800F62130 /* fxl-spread-one.html in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE5C2ADC766700F62130 /* fxl-spread-one.html */; };
+		C58BFE7F2ADC766800F62130 /* fxl-spread-one.html in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE5C2ADC766700F62130 /* fxl-spread-one.html */; };
+		C58BFE802ADC766800F62130 /* fxl-spread-one.html in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE5C2ADC766700F62130 /* fxl-spread-one.html */; };
+		C58BFE812ADC766800F62130 /* ReadiumCSS-before.css in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE5F2ADC766700F62130 /* ReadiumCSS-before.css */; };
+		C58BFE822ADC766800F62130 /* ReadiumCSS-before.css in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE5F2ADC766700F62130 /* ReadiumCSS-before.css */; };
+		C58BFE832ADC766800F62130 /* ReadiumCSS-before.css in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE5F2ADC766700F62130 /* ReadiumCSS-before.css */; };
+		C58BFE842ADC766800F62130 /* ReadiumCSS-default.css in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE602ADC766700F62130 /* ReadiumCSS-default.css */; };
+		C58BFE852ADC766800F62130 /* ReadiumCSS-default.css in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE602ADC766700F62130 /* ReadiumCSS-default.css */; };
+		C58BFE862ADC766800F62130 /* ReadiumCSS-default.css in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE602ADC766700F62130 /* ReadiumCSS-default.css */; };
+		C58BFE872ADC766800F62130 /* ReadiumCSS-ebpaj_fonts_patch.css in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE612ADC766700F62130 /* ReadiumCSS-ebpaj_fonts_patch.css */; };
+		C58BFE882ADC766800F62130 /* ReadiumCSS-ebpaj_fonts_patch.css in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE612ADC766700F62130 /* ReadiumCSS-ebpaj_fonts_patch.css */; };
+		C58BFE892ADC766800F62130 /* ReadiumCSS-ebpaj_fonts_patch.css in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE612ADC766700F62130 /* ReadiumCSS-ebpaj_fonts_patch.css */; };
+		C58BFE8A2ADC766800F62130 /* ReadiumCSS-before.css in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE632ADC766700F62130 /* ReadiumCSS-before.css */; };
+		C58BFE8B2ADC766800F62130 /* ReadiumCSS-before.css in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE632ADC766700F62130 /* ReadiumCSS-before.css */; };
+		C58BFE8C2ADC766800F62130 /* ReadiumCSS-before.css in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE632ADC766700F62130 /* ReadiumCSS-before.css */; };
+		C58BFE8D2ADC766800F62130 /* ReadiumCSS-default.css in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE642ADC766700F62130 /* ReadiumCSS-default.css */; };
+		C58BFE8E2ADC766800F62130 /* ReadiumCSS-default.css in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE642ADC766700F62130 /* ReadiumCSS-default.css */; };
+		C58BFE8F2ADC766800F62130 /* ReadiumCSS-default.css in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE642ADC766700F62130 /* ReadiumCSS-default.css */; };
+		C58BFE902ADC766800F62130 /* ReadiumCSS-after.css in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE652ADC766700F62130 /* ReadiumCSS-after.css */; };
+		C58BFE912ADC766800F62130 /* ReadiumCSS-after.css in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE652ADC766700F62130 /* ReadiumCSS-after.css */; };
+		C58BFE922ADC766800F62130 /* ReadiumCSS-after.css in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE652ADC766700F62130 /* ReadiumCSS-after.css */; };
+		C58BFE932ADC766800F62130 /* ReadiumCSS-after.css in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE662ADC766700F62130 /* ReadiumCSS-after.css */; };
+		C58BFE942ADC766800F62130 /* ReadiumCSS-after.css in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE662ADC766700F62130 /* ReadiumCSS-after.css */; };
+		C58BFE952ADC766800F62130 /* ReadiumCSS-after.css in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE662ADC766700F62130 /* ReadiumCSS-after.css */; };
+		C58BFE962ADC766800F62130 /* ReadMe.md in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE672ADC766700F62130 /* ReadMe.md */; };
+		C58BFE972ADC766800F62130 /* ReadMe.md in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE672ADC766700F62130 /* ReadMe.md */; };
+		C58BFE982ADC766800F62130 /* ReadMe.md in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE672ADC766700F62130 /* ReadMe.md */; };
+		C58BFE992ADC766800F62130 /* ReadiumCSS-before.css in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE692ADC766700F62130 /* ReadiumCSS-before.css */; };
+		C58BFE9A2ADC766800F62130 /* ReadiumCSS-before.css in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE692ADC766700F62130 /* ReadiumCSS-before.css */; };
+		C58BFE9B2ADC766800F62130 /* ReadiumCSS-before.css in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE692ADC766700F62130 /* ReadiumCSS-before.css */; };
+		C58BFE9C2ADC766800F62130 /* ReadiumCSS-default.css in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE6A2ADC766700F62130 /* ReadiumCSS-default.css */; };
+		C58BFE9D2ADC766800F62130 /* ReadiumCSS-default.css in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE6A2ADC766700F62130 /* ReadiumCSS-default.css */; };
+		C58BFE9E2ADC766800F62130 /* ReadiumCSS-default.css in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE6A2ADC766700F62130 /* ReadiumCSS-default.css */; };
+		C58BFE9F2ADC766800F62130 /* ReadiumCSS-after.css in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE6B2ADC766700F62130 /* ReadiumCSS-after.css */; };
+		C58BFEA02ADC766800F62130 /* ReadiumCSS-after.css in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE6B2ADC766700F62130 /* ReadiumCSS-after.css */; };
+		C58BFEA12ADC766800F62130 /* ReadiumCSS-after.css in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE6B2ADC766700F62130 /* ReadiumCSS-after.css */; };
+		C58BFEA22ADC766800F62130 /* ReadiumCSS-before.css in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE6D2ADC766700F62130 /* ReadiumCSS-before.css */; };
+		C58BFEA32ADC766800F62130 /* ReadiumCSS-before.css in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE6D2ADC766700F62130 /* ReadiumCSS-before.css */; };
+		C58BFEA42ADC766800F62130 /* ReadiumCSS-before.css in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE6D2ADC766700F62130 /* ReadiumCSS-before.css */; };
+		C58BFEA52ADC766800F62130 /* ReadiumCSS-default.css in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE6E2ADC766700F62130 /* ReadiumCSS-default.css */; };
+		C58BFEA62ADC766800F62130 /* ReadiumCSS-default.css in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE6E2ADC766700F62130 /* ReadiumCSS-default.css */; };
+		C58BFEA72ADC766800F62130 /* ReadiumCSS-default.css in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE6E2ADC766700F62130 /* ReadiumCSS-default.css */; };
+		C58BFEA82ADC766800F62130 /* ReadiumCSS-after.css in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE6F2ADC766700F62130 /* ReadiumCSS-after.css */; };
+		C58BFEA92ADC766800F62130 /* ReadiumCSS-after.css in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE6F2ADC766700F62130 /* ReadiumCSS-after.css */; };
+		C58BFEAA2ADC766800F62130 /* ReadiumCSS-after.css in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE6F2ADC766700F62130 /* ReadiumCSS-after.css */; };
+		C58BFEAB2ADC766800F62130 /* AccessibleDfA.otf in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE712ADC766700F62130 /* AccessibleDfA.otf */; };
+		C58BFEAC2ADC766800F62130 /* AccessibleDfA.otf in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE712ADC766700F62130 /* AccessibleDfA.otf */; };
+		C58BFEAD2ADC766800F62130 /* AccessibleDfA.otf in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE712ADC766700F62130 /* AccessibleDfA.otf */; };
+		C58BFEAE2ADC766800F62130 /* LICENSE-AccessibleDfa in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE722ADC766700F62130 /* LICENSE-AccessibleDfa */; };
+		C58BFEAF2ADC766800F62130 /* LICENSE-AccessibleDfa in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE722ADC766700F62130 /* LICENSE-AccessibleDfa */; };
+		C58BFEB02ADC766800F62130 /* LICENSE-AccessibleDfa in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE722ADC766700F62130 /* LICENSE-AccessibleDfa */; };
+		C58BFEB12ADC766800F62130 /* iAWriterDuospace-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE732ADC766700F62130 /* iAWriterDuospace-Regular.ttf */; };
+		C58BFEB22ADC766800F62130 /* iAWriterDuospace-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE732ADC766700F62130 /* iAWriterDuospace-Regular.ttf */; };
+		C58BFEB32ADC766800F62130 /* iAWriterDuospace-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE732ADC766700F62130 /* iAWriterDuospace-Regular.ttf */; };
+		C58BFEB42ADC766800F62130 /* LICENSE-IaWriterDuospace.md in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE742ADC766700F62130 /* LICENSE-IaWriterDuospace.md */; };
+		C58BFEB52ADC766800F62130 /* LICENSE-IaWriterDuospace.md in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE742ADC766700F62130 /* LICENSE-IaWriterDuospace.md */; };
+		C58BFEB62ADC766800F62130 /* LICENSE-IaWriterDuospace.md in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE742ADC766700F62130 /* LICENSE-IaWriterDuospace.md */; };
+		C58BFEB72ADC766800F62130 /* readium-fixed-wrapper-two.js in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE762ADC766700F62130 /* readium-fixed-wrapper-two.js */; };
+		C58BFEB82ADC766800F62130 /* readium-fixed-wrapper-two.js in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE762ADC766700F62130 /* readium-fixed-wrapper-two.js */; };
+		C58BFEB92ADC766800F62130 /* readium-fixed-wrapper-two.js in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE762ADC766700F62130 /* readium-fixed-wrapper-two.js */; };
+		C58BFEBA2ADC766800F62130 /* readium-fixed-wrapper-one.js in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE772ADC766700F62130 /* readium-fixed-wrapper-one.js */; };
+		C58BFEBB2ADC766800F62130 /* readium-fixed-wrapper-one.js in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE772ADC766700F62130 /* readium-fixed-wrapper-one.js */; };
+		C58BFEBC2ADC766800F62130 /* readium-fixed-wrapper-one.js in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE772ADC766700F62130 /* readium-fixed-wrapper-one.js */; };
+		C58BFEBD2ADC766800F62130 /* readium-fixed.js in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE782ADC766700F62130 /* readium-fixed.js */; };
+		C58BFEBE2ADC766800F62130 /* readium-fixed.js in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE782ADC766700F62130 /* readium-fixed.js */; };
+		C58BFEBF2ADC766800F62130 /* readium-fixed.js in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE782ADC766700F62130 /* readium-fixed.js */; };
+		C58BFEC02ADC766800F62130 /* readium-reflowable.js in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE792ADC766700F62130 /* readium-reflowable.js */; };
+		C58BFEC12ADC766800F62130 /* readium-reflowable.js in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE792ADC766700F62130 /* readium-reflowable.js */; };
+		C58BFEC22ADC766800F62130 /* readium-reflowable.js in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE792ADC766700F62130 /* readium-reflowable.js */; };
+		C58BFEC32ADC766800F62130 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE7A2ADC766700F62130 /* .gitignore */; };
+		C58BFEC42ADC766800F62130 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE7A2ADC766700F62130 /* .gitignore */; };
+		C58BFEC52ADC766800F62130 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE7A2ADC766700F62130 /* .gitignore */; };
+		C58BFEC62ADC766800F62130 /* OpenDyslexic-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE7C2ADC766700F62130 /* OpenDyslexic-Regular.otf */; };
+		C58BFEC72ADC766800F62130 /* OpenDyslexic-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE7C2ADC766700F62130 /* OpenDyslexic-Regular.otf */; };
+		C58BFEC82ADC766800F62130 /* OpenDyslexic-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE7C2ADC766700F62130 /* OpenDyslexic-Regular.otf */; };
+		C58BFEC92ADC766800F62130 /* fxl-spread-two.html in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE7D2ADC766700F62130 /* fxl-spread-two.html */; };
+		C58BFECA2ADC766800F62130 /* fxl-spread-two.html in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE7D2ADC766700F62130 /* fxl-spread-two.html */; };
+		C58BFECB2ADC766800F62130 /* fxl-spread-two.html in Resources */ = {isa = PBXBuildFile; fileRef = C58BFE7D2ADC766700F62130 /* fxl-spread-two.html */; };
 		C5DD3290C937FDE7278369EDE27EAD69 /* BlockModeOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266E51C7EFB37311FFA164AFE07150AC /* BlockModeOptions.swift */; };
 		C6EB9AC3AA9F4B27DFCC5CCF626BD697 /* UInt64+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB68FC57FBF2A8DDCF2FE4EC13F3E00 /* UInt64+Extension.swift */; };
 		C73447CDBA0AFA1F45BC0B6C9EC948B7 /* Collector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D5D6A9C40726A0DA7D7DC39086D227 /* Collector.swift */; };
@@ -1712,32 +1712,32 @@
 		C522ADD42ADC217C00444902 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		C522ADD52ADC217C00444902 /* DataCompression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataCompression.swift; sourceTree = "<group>"; };
 		C57C743FE050F565B88C28231AFB0114 /* Cleaner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cleaner.swift; path = Sources/Cleaner.swift; sourceTree = "<group>"; };
-		C5A777D92ADC4B4A00ECADC7 /* fxl-spread-one.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "fxl-spread-one.html"; sourceTree = "<group>"; };
-		C5A777DC2ADC4B4A00ECADC7 /* ReadiumCSS-before.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "ReadiumCSS-before.css"; sourceTree = "<group>"; };
-		C5A777DD2ADC4B4A00ECADC7 /* ReadiumCSS-default.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "ReadiumCSS-default.css"; sourceTree = "<group>"; };
-		C5A777DE2ADC4B4A00ECADC7 /* ReadiumCSS-ebpaj_fonts_patch.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "ReadiumCSS-ebpaj_fonts_patch.css"; sourceTree = "<group>"; };
-		C5A777E02ADC4B4A00ECADC7 /* ReadiumCSS-before.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "ReadiumCSS-before.css"; sourceTree = "<group>"; };
-		C5A777E12ADC4B4A00ECADC7 /* ReadiumCSS-default.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "ReadiumCSS-default.css"; sourceTree = "<group>"; };
-		C5A777E22ADC4B4A00ECADC7 /* ReadiumCSS-after.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "ReadiumCSS-after.css"; sourceTree = "<group>"; };
-		C5A777E32ADC4B4A00ECADC7 /* ReadiumCSS-after.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "ReadiumCSS-after.css"; sourceTree = "<group>"; };
-		C5A777E42ADC4B4A00ECADC7 /* ReadMe.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
-		C5A777E62ADC4B4A00ECADC7 /* ReadiumCSS-before.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "ReadiumCSS-before.css"; sourceTree = "<group>"; };
-		C5A777E72ADC4B4A00ECADC7 /* ReadiumCSS-default.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "ReadiumCSS-default.css"; sourceTree = "<group>"; };
-		C5A777E82ADC4B4A00ECADC7 /* ReadiumCSS-after.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "ReadiumCSS-after.css"; sourceTree = "<group>"; };
-		C5A777EA2ADC4B4A00ECADC7 /* ReadiumCSS-before.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "ReadiumCSS-before.css"; sourceTree = "<group>"; };
-		C5A777EB2ADC4B4A00ECADC7 /* ReadiumCSS-default.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "ReadiumCSS-default.css"; sourceTree = "<group>"; };
-		C5A777EC2ADC4B4A00ECADC7 /* ReadiumCSS-after.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "ReadiumCSS-after.css"; sourceTree = "<group>"; };
-		C5A777EE2ADC4B4A00ECADC7 /* AccessibleDfA.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AccessibleDfA.otf; sourceTree = "<group>"; };
-		C5A777EF2ADC4B4A00ECADC7 /* LICENSE-AccessibleDfa */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "LICENSE-AccessibleDfa"; sourceTree = "<group>"; };
-		C5A777F02ADC4B4A00ECADC7 /* iAWriterDuospace-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iAWriterDuospace-Regular.ttf"; sourceTree = "<group>"; };
-		C5A777F12ADC4B4A00ECADC7 /* LICENSE-IaWriterDuospace.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "LICENSE-IaWriterDuospace.md"; sourceTree = "<group>"; };
-		C5A777F32ADC4B4A00ECADC7 /* readium-fixed-wrapper-two.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "readium-fixed-wrapper-two.js"; sourceTree = "<group>"; };
-		C5A777F42ADC4B4A00ECADC7 /* readium-fixed-wrapper-one.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "readium-fixed-wrapper-one.js"; sourceTree = "<group>"; };
-		C5A777F52ADC4B4A00ECADC7 /* readium-fixed.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "readium-fixed.js"; sourceTree = "<group>"; };
-		C5A777F62ADC4B4A00ECADC7 /* readium-reflowable.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "readium-reflowable.js"; sourceTree = "<group>"; };
-		C5A777F72ADC4B4A00ECADC7 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		C5A777F92ADC4B4A00ECADC7 /* OpenDyslexic-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenDyslexic-Regular.otf"; sourceTree = "<group>"; };
-		C5A777FA2ADC4B4A00ECADC7 /* fxl-spread-two.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "fxl-spread-two.html"; sourceTree = "<group>"; };
+		C58BFE5C2ADC766700F62130 /* fxl-spread-one.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "fxl-spread-one.html"; sourceTree = "<group>"; };
+		C58BFE5F2ADC766700F62130 /* ReadiumCSS-before.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "ReadiumCSS-before.css"; sourceTree = "<group>"; };
+		C58BFE602ADC766700F62130 /* ReadiumCSS-default.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "ReadiumCSS-default.css"; sourceTree = "<group>"; };
+		C58BFE612ADC766700F62130 /* ReadiumCSS-ebpaj_fonts_patch.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "ReadiumCSS-ebpaj_fonts_patch.css"; sourceTree = "<group>"; };
+		C58BFE632ADC766700F62130 /* ReadiumCSS-before.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "ReadiumCSS-before.css"; sourceTree = "<group>"; };
+		C58BFE642ADC766700F62130 /* ReadiumCSS-default.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "ReadiumCSS-default.css"; sourceTree = "<group>"; };
+		C58BFE652ADC766700F62130 /* ReadiumCSS-after.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "ReadiumCSS-after.css"; sourceTree = "<group>"; };
+		C58BFE662ADC766700F62130 /* ReadiumCSS-after.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "ReadiumCSS-after.css"; sourceTree = "<group>"; };
+		C58BFE672ADC766700F62130 /* ReadMe.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
+		C58BFE692ADC766700F62130 /* ReadiumCSS-before.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "ReadiumCSS-before.css"; sourceTree = "<group>"; };
+		C58BFE6A2ADC766700F62130 /* ReadiumCSS-default.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "ReadiumCSS-default.css"; sourceTree = "<group>"; };
+		C58BFE6B2ADC766700F62130 /* ReadiumCSS-after.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "ReadiumCSS-after.css"; sourceTree = "<group>"; };
+		C58BFE6D2ADC766700F62130 /* ReadiumCSS-before.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "ReadiumCSS-before.css"; sourceTree = "<group>"; };
+		C58BFE6E2ADC766700F62130 /* ReadiumCSS-default.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "ReadiumCSS-default.css"; sourceTree = "<group>"; };
+		C58BFE6F2ADC766700F62130 /* ReadiumCSS-after.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "ReadiumCSS-after.css"; sourceTree = "<group>"; };
+		C58BFE712ADC766700F62130 /* AccessibleDfA.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AccessibleDfA.otf; sourceTree = "<group>"; };
+		C58BFE722ADC766700F62130 /* LICENSE-AccessibleDfa */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "LICENSE-AccessibleDfa"; sourceTree = "<group>"; };
+		C58BFE732ADC766700F62130 /* iAWriterDuospace-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iAWriterDuospace-Regular.ttf"; sourceTree = "<group>"; };
+		C58BFE742ADC766700F62130 /* LICENSE-IaWriterDuospace.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "LICENSE-IaWriterDuospace.md"; sourceTree = "<group>"; };
+		C58BFE762ADC766700F62130 /* readium-fixed-wrapper-two.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "readium-fixed-wrapper-two.js"; sourceTree = "<group>"; };
+		C58BFE772ADC766700F62130 /* readium-fixed-wrapper-one.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "readium-fixed-wrapper-one.js"; sourceTree = "<group>"; };
+		C58BFE782ADC766700F62130 /* readium-fixed.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "readium-fixed.js"; sourceTree = "<group>"; };
+		C58BFE792ADC766700F62130 /* readium-reflowable.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "readium-reflowable.js"; sourceTree = "<group>"; };
+		C58BFE7A2ADC766700F62130 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		C58BFE7C2ADC766700F62130 /* OpenDyslexic-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenDyslexic-Regular.otf"; sourceTree = "<group>"; };
+		C58BFE7D2ADC766700F62130 /* fxl-spread-two.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "fxl-spread-two.html"; sourceTree = "<group>"; };
 		C5C35A4E672A720741167E5CE191868C /* Pods-iReadEpub_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iReadEpub_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C5D292659962BE2F0E52484FCB0F56BF /* Exponentiation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Exponentiation.swift; path = Sources/CryptoSwift/CS_BigInt/Exponentiation.swift; sourceTree = "<group>"; };
 		C64C63AAE8BC693BADAFE77806476B62 /* BigInt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BigInt.swift; path = Sources/CryptoSwift/CS_BigInt/BigInt.swift; sourceTree = "<group>"; };
@@ -3222,100 +3222,99 @@
 			path = ZIPArchive;
 			sourceTree = "<group>";
 		};
-		C5A777D82ADC4B4A00ECADC7 /* Assets */ = {
+		C58BFE5B2ADC766700F62130 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				C5A777D92ADC4B4A00ECADC7 /* fxl-spread-one.html */,
-				C5A777DA2ADC4B4A00ECADC7 /* Static */,
-				C5A777F82ADC4B4A00ECADC7 /* fonts */,
-				C5A777FA2ADC4B4A00ECADC7 /* fxl-spread-two.html */,
+				C58BFE5C2ADC766700F62130 /* fxl-spread-one.html */,
+				C58BFE5D2ADC766700F62130 /* Static */,
+				C58BFE7B2ADC766700F62130 /* fonts */,
+				C58BFE7D2ADC766700F62130 /* fxl-spread-two.html */,
 			);
-			name = Assets;
-			path = "../../../../Desktop/untitled folder/Assets";
+			path = Assets;
 			sourceTree = "<group>";
 		};
-		C5A777DA2ADC4B4A00ECADC7 /* Static */ = {
+		C58BFE5D2ADC766700F62130 /* Static */ = {
 			isa = PBXGroup;
 			children = (
-				C5A777DB2ADC4B4A00ECADC7 /* readium-css */,
-				C5A777F22ADC4B4A00ECADC7 /* scripts */,
+				C58BFE5E2ADC766700F62130 /* readium-css */,
+				C58BFE752ADC766700F62130 /* scripts */,
 			);
 			path = Static;
 			sourceTree = "<group>";
 		};
-		C5A777DB2ADC4B4A00ECADC7 /* readium-css */ = {
+		C58BFE5E2ADC766700F62130 /* readium-css */ = {
 			isa = PBXGroup;
 			children = (
-				C5A777DC2ADC4B4A00ECADC7 /* ReadiumCSS-before.css */,
-				C5A777DD2ADC4B4A00ECADC7 /* ReadiumCSS-default.css */,
-				C5A777DE2ADC4B4A00ECADC7 /* ReadiumCSS-ebpaj_fonts_patch.css */,
-				C5A777DF2ADC4B4A00ECADC7 /* cjk-vertical */,
-				C5A777E32ADC4B4A00ECADC7 /* ReadiumCSS-after.css */,
-				C5A777E42ADC4B4A00ECADC7 /* ReadMe.md */,
-				C5A777E52ADC4B4A00ECADC7 /* rtl */,
-				C5A777E92ADC4B4A00ECADC7 /* cjk-horizontal */,
-				C5A777ED2ADC4B4A00ECADC7 /* fonts */,
+				C58BFE5F2ADC766700F62130 /* ReadiumCSS-before.css */,
+				C58BFE602ADC766700F62130 /* ReadiumCSS-default.css */,
+				C58BFE612ADC766700F62130 /* ReadiumCSS-ebpaj_fonts_patch.css */,
+				C58BFE622ADC766700F62130 /* cjk-vertical */,
+				C58BFE662ADC766700F62130 /* ReadiumCSS-after.css */,
+				C58BFE672ADC766700F62130 /* ReadMe.md */,
+				C58BFE682ADC766700F62130 /* rtl */,
+				C58BFE6C2ADC766700F62130 /* cjk-horizontal */,
+				C58BFE702ADC766700F62130 /* fonts */,
 			);
 			path = "readium-css";
 			sourceTree = "<group>";
 		};
-		C5A777DF2ADC4B4A00ECADC7 /* cjk-vertical */ = {
+		C58BFE622ADC766700F62130 /* cjk-vertical */ = {
 			isa = PBXGroup;
 			children = (
-				C5A777E02ADC4B4A00ECADC7 /* ReadiumCSS-before.css */,
-				C5A777E12ADC4B4A00ECADC7 /* ReadiumCSS-default.css */,
-				C5A777E22ADC4B4A00ECADC7 /* ReadiumCSS-after.css */,
+				C58BFE632ADC766700F62130 /* ReadiumCSS-before.css */,
+				C58BFE642ADC766700F62130 /* ReadiumCSS-default.css */,
+				C58BFE652ADC766700F62130 /* ReadiumCSS-after.css */,
 			);
 			path = "cjk-vertical";
 			sourceTree = "<group>";
 		};
-		C5A777E52ADC4B4A00ECADC7 /* rtl */ = {
+		C58BFE682ADC766700F62130 /* rtl */ = {
 			isa = PBXGroup;
 			children = (
-				C5A777E62ADC4B4A00ECADC7 /* ReadiumCSS-before.css */,
-				C5A777E72ADC4B4A00ECADC7 /* ReadiumCSS-default.css */,
-				C5A777E82ADC4B4A00ECADC7 /* ReadiumCSS-after.css */,
+				C58BFE692ADC766700F62130 /* ReadiumCSS-before.css */,
+				C58BFE6A2ADC766700F62130 /* ReadiumCSS-default.css */,
+				C58BFE6B2ADC766700F62130 /* ReadiumCSS-after.css */,
 			);
 			path = rtl;
 			sourceTree = "<group>";
 		};
-		C5A777E92ADC4B4A00ECADC7 /* cjk-horizontal */ = {
+		C58BFE6C2ADC766700F62130 /* cjk-horizontal */ = {
 			isa = PBXGroup;
 			children = (
-				C5A777EA2ADC4B4A00ECADC7 /* ReadiumCSS-before.css */,
-				C5A777EB2ADC4B4A00ECADC7 /* ReadiumCSS-default.css */,
-				C5A777EC2ADC4B4A00ECADC7 /* ReadiumCSS-after.css */,
+				C58BFE6D2ADC766700F62130 /* ReadiumCSS-before.css */,
+				C58BFE6E2ADC766700F62130 /* ReadiumCSS-default.css */,
+				C58BFE6F2ADC766700F62130 /* ReadiumCSS-after.css */,
 			);
 			path = "cjk-horizontal";
 			sourceTree = "<group>";
 		};
-		C5A777ED2ADC4B4A00ECADC7 /* fonts */ = {
+		C58BFE702ADC766700F62130 /* fonts */ = {
 			isa = PBXGroup;
 			children = (
-				C5A777EE2ADC4B4A00ECADC7 /* AccessibleDfA.otf */,
-				C5A777EF2ADC4B4A00ECADC7 /* LICENSE-AccessibleDfa */,
-				C5A777F02ADC4B4A00ECADC7 /* iAWriterDuospace-Regular.ttf */,
-				C5A777F12ADC4B4A00ECADC7 /* LICENSE-IaWriterDuospace.md */,
+				C58BFE712ADC766700F62130 /* AccessibleDfA.otf */,
+				C58BFE722ADC766700F62130 /* LICENSE-AccessibleDfa */,
+				C58BFE732ADC766700F62130 /* iAWriterDuospace-Regular.ttf */,
+				C58BFE742ADC766700F62130 /* LICENSE-IaWriterDuospace.md */,
 			);
 			path = fonts;
 			sourceTree = "<group>";
 		};
-		C5A777F22ADC4B4A00ECADC7 /* scripts */ = {
+		C58BFE752ADC766700F62130 /* scripts */ = {
 			isa = PBXGroup;
 			children = (
-				C5A777F32ADC4B4A00ECADC7 /* readium-fixed-wrapper-two.js */,
-				C5A777F42ADC4B4A00ECADC7 /* readium-fixed-wrapper-one.js */,
-				C5A777F52ADC4B4A00ECADC7 /* readium-fixed.js */,
-				C5A777F62ADC4B4A00ECADC7 /* readium-reflowable.js */,
-				C5A777F72ADC4B4A00ECADC7 /* .gitignore */,
+				C58BFE762ADC766700F62130 /* readium-fixed-wrapper-two.js */,
+				C58BFE772ADC766700F62130 /* readium-fixed-wrapper-one.js */,
+				C58BFE782ADC766700F62130 /* readium-fixed.js */,
+				C58BFE792ADC766700F62130 /* readium-reflowable.js */,
+				C58BFE7A2ADC766700F62130 /* .gitignore */,
 			);
 			path = scripts;
 			sourceTree = "<group>";
 		};
-		C5A777F82ADC4B4A00ECADC7 /* fonts */ = {
+		C58BFE7B2ADC766700F62130 /* fonts */ = {
 			isa = PBXGroup;
 			children = (
-				C5A777F92ADC4B4A00ECADC7 /* OpenDyslexic-Regular.otf */,
+				C58BFE7C2ADC766700F62130 /* OpenDyslexic-Regular.otf */,
 			);
 			path = fonts;
 			sourceTree = "<group>";
@@ -3372,7 +3371,7 @@
 		D5CD0F5457265452F893234D5F83DF85 /* iReadEpub */ = {
 			isa = PBXGroup;
 			children = (
-				C5A777D82ADC4B4A00ECADC7 /* Assets */,
+				C58BFE5B2ADC766700F62130 /* Assets */,
 				C522ABE02ADC206500444902 /* Sources */,
 				6E0FC0AE106E3A8683CD1BF6BE148CE5 /* Pod */,
 				CE37A2F73DE35E490E7AD0103EAF8EAD /* Support Files */,
@@ -3793,55 +3792,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				C522AE572ADC217C00444902 /* ReadiumCSS-before.css in Resources */,
-				C5A7781F2ADC4B4A00ECADC7 /* ReadiumCSS-before.css in Resources */,
-				C5A778072ADC4B4A00ECADC7 /* ReadiumCSS-before.css in Resources */,
+				C58BFEA22ADC766800F62130 /* ReadiumCSS-before.css in Resources */,
+				C58BFE8A2ADC766800F62130 /* ReadiumCSS-before.css in Resources */,
 				C522AE542ADC217C00444902 /* fxl-spread-one.html in Resources */,
-				C5A778192ADC4B4A00ECADC7 /* ReadiumCSS-default.css in Resources */,
-				C5A778372ADC4B4B00ECADC7 /* readium-fixed-wrapper-one.js in Resources */,
-				C5A777FE2ADC4B4A00ECADC7 /* ReadiumCSS-before.css in Resources */,
-				C5A777FB2ADC4B4A00ECADC7 /* fxl-spread-one.html in Resources */,
-				C5A7781C2ADC4B4A00ECADC7 /* ReadiumCSS-after.css in Resources */,
+				C58BFE9C2ADC766800F62130 /* ReadiumCSS-default.css in Resources */,
+				C58BFEBA2ADC766800F62130 /* readium-fixed-wrapper-one.js in Resources */,
+				C58BFE812ADC766800F62130 /* ReadiumCSS-before.css in Resources */,
+				C58BFE7E2ADC766800F62130 /* fxl-spread-one.html in Resources */,
+				C58BFE9F2ADC766800F62130 /* ReadiumCSS-after.css in Resources */,
 				C522AE7B2ADC217C00444902 /* cjk-horizontal_ReadiumCSS-after.css in Resources */,
 				C522AE812ADC217C00444902 /* LICENSE-AccessibleDfa in Resources */,
-				C5A7782B2ADC4B4B00ECADC7 /* LICENSE-AccessibleDfa in Resources */,
+				C58BFEAE2ADC766800F62130 /* LICENSE-AccessibleDfa in Resources */,
 				C522AE962ADC217C00444902 /* fxl-spread-two.html in Resources */,
 				C522AE6C2ADC217C00444902 /* rtl_ReadiumCSS-after.css in Resources */,
-				C5A7783D2ADC4B4B00ECADC7 /* readium-reflowable.js in Resources */,
-				C5A778042ADC4B4A00ECADC7 /* ReadiumCSS-ebpaj_fonts_patch.css in Resources */,
-				C5A778402ADC4B4B00ECADC7 /* .gitignore in Resources */,
+				C58BFEC02ADC766800F62130 /* readium-reflowable.js in Resources */,
+				C58BFE872ADC766800F62130 /* ReadiumCSS-ebpaj_fonts_patch.css in Resources */,
+				C58BFEC32ADC766800F62130 /* .gitignore in Resources */,
 				C522AE782ADC217C00444902 /* cjk-horizontal_ReadiumCSS-before.css in Resources */,
 				C522AE602ADC217C00444902 /* cjk-vertical_ReadiumCSS-default.css in Resources */,
-				C5A7782E2ADC4B4B00ECADC7 /* iAWriterDuospace-Regular.ttf in Resources */,
+				C58BFEB12ADC766800F62130 /* iAWriterDuospace-Regular.ttf in Resources */,
 				C522AE722ADC217C00444902 /* rtl_ReadiumCSS-default.css in Resources */,
 				C522AE932ADC217C00444902 /* readium-reflowable.js in Resources */,
-				C5A778222ADC4B4A00ECADC7 /* ReadiumCSS-default.css in Resources */,
-				C5A778162ADC4B4A00ECADC7 /* ReadiumCSS-before.css in Resources */,
+				C58BFEA52ADC766800F62130 /* ReadiumCSS-default.css in Resources */,
+				C58BFE992ADC766800F62130 /* ReadiumCSS-before.css in Resources */,
 				C522AE5D2ADC217C00444902 /* ReadiumCSS-ebpaj_fonts_patch.css in Resources */,
 				C522AE7E2ADC217C00444902 /* AccessibleDfA.otf in Resources */,
-				C5A778252ADC4B4A00ECADC7 /* ReadiumCSS-after.css in Resources */,
+				C58BFEA82ADC766800F62130 /* ReadiumCSS-after.css in Resources */,
 				C522B0972ADC217E00444902 /* OpenDyslexic-Regular.otf in Resources */,
-				C5A778312ADC4B4B00ECADC7 /* LICENSE-IaWriterDuospace.md in Resources */,
+				C58BFEB42ADC766800F62130 /* LICENSE-IaWriterDuospace.md in Resources */,
 				C522AE902ADC217C00444902 /* readium-fixed.js in Resources */,
 				C522AE752ADC217C00444902 /* cjk-horizontal_ReadiumCSS-default.css in Resources */,
-				C5A778342ADC4B4B00ECADC7 /* readium-fixed-wrapper-two.js in Resources */,
-				C5A778012ADC4B4A00ECADC7 /* ReadiumCSS-default.css in Resources */,
+				C58BFEB72ADC766800F62130 /* readium-fixed-wrapper-two.js in Resources */,
+				C58BFE842ADC766800F62130 /* ReadiumCSS-default.css in Resources */,
 				C522AE5A2ADC217C00444902 /* ReadiumCSS-default.css in Resources */,
 				C522AE6F2ADC217C00444902 /* rtl_ReadiumCSS-before.css in Resources */,
 				C522AE632ADC217C00444902 /* cjk-vertical_ReadiumCSS-after.css in Resources */,
-				C5A778132ADC4B4A00ECADC7 /* ReadMe.md in Resources */,
-				C5A7783A2ADC4B4B00ECADC7 /* readium-fixed.js in Resources */,
-				C5A7780A2ADC4B4A00ECADC7 /* ReadiumCSS-default.css in Resources */,
-				C5A778462ADC4B4B00ECADC7 /* fxl-spread-two.html in Resources */,
+				C58BFE962ADC766800F62130 /* ReadMe.md in Resources */,
+				C58BFEBD2ADC766800F62130 /* readium-fixed.js in Resources */,
+				C58BFE8D2ADC766800F62130 /* ReadiumCSS-default.css in Resources */,
+				C58BFEC92ADC766800F62130 /* fxl-spread-two.html in Resources */,
 				C522AE692ADC217C00444902 /* ReadiumCSS-after.css in Resources */,
 				C522AE8D2ADC217C00444902 /* readium-fixed-wrapper-one.js in Resources */,
-				C5A778282ADC4B4A00ECADC7 /* AccessibleDfA.otf in Resources */,
-				C5A778102ADC4B4A00ECADC7 /* ReadiumCSS-after.css in Resources */,
+				C58BFEAB2ADC766800F62130 /* AccessibleDfA.otf in Resources */,
+				C58BFE932ADC766800F62130 /* ReadiumCSS-after.css in Resources */,
 				C522AE872ADC217C00444902 /* LICENSE-IaWriterDuospace.md in Resources */,
-				C5A7780D2ADC4B4A00ECADC7 /* ReadiumCSS-after.css in Resources */,
+				C58BFE902ADC766800F62130 /* ReadiumCSS-after.css in Resources */,
 				C522AE662ADC217C00444902 /* cjk-vertical_ReadiumCSS-before.css in Resources */,
 				C522AE8A2ADC217C00444902 /* readium-fixed-wrapper-two.js in Resources */,
 				C522AE842ADC217C00444902 /* iAWriterDuospace-Regular.ttf in Resources */,
-				C5A778432ADC4B4B00ECADC7 /* OpenDyslexic-Regular.otf in Resources */,
+				C58BFEC62ADC766800F62130 /* OpenDyslexic-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3857,55 +3856,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				C522AE592ADC217C00444902 /* ReadiumCSS-before.css in Resources */,
-				C5A778212ADC4B4A00ECADC7 /* ReadiumCSS-before.css in Resources */,
-				C5A778092ADC4B4A00ECADC7 /* ReadiumCSS-before.css in Resources */,
+				C58BFEA42ADC766800F62130 /* ReadiumCSS-before.css in Resources */,
+				C58BFE8C2ADC766800F62130 /* ReadiumCSS-before.css in Resources */,
 				C522AE562ADC217C00444902 /* fxl-spread-one.html in Resources */,
-				C5A7781B2ADC4B4A00ECADC7 /* ReadiumCSS-default.css in Resources */,
-				C5A778392ADC4B4B00ECADC7 /* readium-fixed-wrapper-one.js in Resources */,
-				C5A778002ADC4B4A00ECADC7 /* ReadiumCSS-before.css in Resources */,
-				C5A777FD2ADC4B4A00ECADC7 /* fxl-spread-one.html in Resources */,
-				C5A7781E2ADC4B4A00ECADC7 /* ReadiumCSS-after.css in Resources */,
+				C58BFE9E2ADC766800F62130 /* ReadiumCSS-default.css in Resources */,
+				C58BFEBC2ADC766800F62130 /* readium-fixed-wrapper-one.js in Resources */,
+				C58BFE832ADC766800F62130 /* ReadiumCSS-before.css in Resources */,
+				C58BFE802ADC766800F62130 /* fxl-spread-one.html in Resources */,
+				C58BFEA12ADC766800F62130 /* ReadiumCSS-after.css in Resources */,
 				C522AE7D2ADC217C00444902 /* cjk-horizontal_ReadiumCSS-after.css in Resources */,
 				C522AE832ADC217C00444902 /* LICENSE-AccessibleDfa in Resources */,
-				C5A7782D2ADC4B4B00ECADC7 /* LICENSE-AccessibleDfa in Resources */,
+				C58BFEB02ADC766800F62130 /* LICENSE-AccessibleDfa in Resources */,
 				C522AE982ADC217C00444902 /* fxl-spread-two.html in Resources */,
 				C522AE6E2ADC217C00444902 /* rtl_ReadiumCSS-after.css in Resources */,
-				C5A7783F2ADC4B4B00ECADC7 /* readium-reflowable.js in Resources */,
-				C5A778062ADC4B4A00ECADC7 /* ReadiumCSS-ebpaj_fonts_patch.css in Resources */,
-				C5A778422ADC4B4B00ECADC7 /* .gitignore in Resources */,
+				C58BFEC22ADC766800F62130 /* readium-reflowable.js in Resources */,
+				C58BFE892ADC766800F62130 /* ReadiumCSS-ebpaj_fonts_patch.css in Resources */,
+				C58BFEC52ADC766800F62130 /* .gitignore in Resources */,
 				C522AE7A2ADC217C00444902 /* cjk-horizontal_ReadiumCSS-before.css in Resources */,
 				C522AE622ADC217C00444902 /* cjk-vertical_ReadiumCSS-default.css in Resources */,
-				C5A778302ADC4B4B00ECADC7 /* iAWriterDuospace-Regular.ttf in Resources */,
+				C58BFEB32ADC766800F62130 /* iAWriterDuospace-Regular.ttf in Resources */,
 				C522AE742ADC217C00444902 /* rtl_ReadiumCSS-default.css in Resources */,
 				C522AE952ADC217C00444902 /* readium-reflowable.js in Resources */,
-				C5A778242ADC4B4A00ECADC7 /* ReadiumCSS-default.css in Resources */,
-				C5A778182ADC4B4A00ECADC7 /* ReadiumCSS-before.css in Resources */,
+				C58BFEA72ADC766800F62130 /* ReadiumCSS-default.css in Resources */,
+				C58BFE9B2ADC766800F62130 /* ReadiumCSS-before.css in Resources */,
 				C522AE5F2ADC217C00444902 /* ReadiumCSS-ebpaj_fonts_patch.css in Resources */,
 				C522AE802ADC217C00444902 /* AccessibleDfA.otf in Resources */,
-				C5A778272ADC4B4A00ECADC7 /* ReadiumCSS-after.css in Resources */,
+				C58BFEAA2ADC766800F62130 /* ReadiumCSS-after.css in Resources */,
 				C522B0992ADC217E00444902 /* OpenDyslexic-Regular.otf in Resources */,
-				C5A778332ADC4B4B00ECADC7 /* LICENSE-IaWriterDuospace.md in Resources */,
+				C58BFEB62ADC766800F62130 /* LICENSE-IaWriterDuospace.md in Resources */,
 				C522AE922ADC217C00444902 /* readium-fixed.js in Resources */,
 				C522AE772ADC217C00444902 /* cjk-horizontal_ReadiumCSS-default.css in Resources */,
-				C5A778362ADC4B4B00ECADC7 /* readium-fixed-wrapper-two.js in Resources */,
-				C5A778032ADC4B4A00ECADC7 /* ReadiumCSS-default.css in Resources */,
+				C58BFEB92ADC766800F62130 /* readium-fixed-wrapper-two.js in Resources */,
+				C58BFE862ADC766800F62130 /* ReadiumCSS-default.css in Resources */,
 				C522AE5C2ADC217C00444902 /* ReadiumCSS-default.css in Resources */,
 				C522AE712ADC217C00444902 /* rtl_ReadiumCSS-before.css in Resources */,
 				C522AE652ADC217C00444902 /* cjk-vertical_ReadiumCSS-after.css in Resources */,
-				C5A778152ADC4B4A00ECADC7 /* ReadMe.md in Resources */,
-				C5A7783C2ADC4B4B00ECADC7 /* readium-fixed.js in Resources */,
-				C5A7780C2ADC4B4A00ECADC7 /* ReadiumCSS-default.css in Resources */,
-				C5A778482ADC4B4B00ECADC7 /* fxl-spread-two.html in Resources */,
+				C58BFE982ADC766800F62130 /* ReadMe.md in Resources */,
+				C58BFEBF2ADC766800F62130 /* readium-fixed.js in Resources */,
+				C58BFE8F2ADC766800F62130 /* ReadiumCSS-default.css in Resources */,
+				C58BFECB2ADC766800F62130 /* fxl-spread-two.html in Resources */,
 				C522AE6B2ADC217C00444902 /* ReadiumCSS-after.css in Resources */,
 				C522AE8F2ADC217C00444902 /* readium-fixed-wrapper-one.js in Resources */,
-				C5A7782A2ADC4B4B00ECADC7 /* AccessibleDfA.otf in Resources */,
-				C5A778122ADC4B4A00ECADC7 /* ReadiumCSS-after.css in Resources */,
+				C58BFEAD2ADC766800F62130 /* AccessibleDfA.otf in Resources */,
+				C58BFE952ADC766800F62130 /* ReadiumCSS-after.css in Resources */,
 				C522AE892ADC217C00444902 /* LICENSE-IaWriterDuospace.md in Resources */,
-				C5A7780F2ADC4B4A00ECADC7 /* ReadiumCSS-after.css in Resources */,
+				C58BFE922ADC766800F62130 /* ReadiumCSS-after.css in Resources */,
 				C522AE682ADC217C00444902 /* cjk-vertical_ReadiumCSS-before.css in Resources */,
 				C522AE8C2ADC217C00444902 /* readium-fixed-wrapper-two.js in Resources */,
 				C522AE862ADC217C00444902 /* iAWriterDuospace-Regular.ttf in Resources */,
-				C5A778452ADC4B4B00ECADC7 /* OpenDyslexic-Regular.otf in Resources */,
+				C58BFEC82ADC766800F62130 /* OpenDyslexic-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3914,55 +3913,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				C522AE582ADC217C00444902 /* ReadiumCSS-before.css in Resources */,
-				C5A778202ADC4B4A00ECADC7 /* ReadiumCSS-before.css in Resources */,
-				C5A778082ADC4B4A00ECADC7 /* ReadiumCSS-before.css in Resources */,
+				C58BFEA32ADC766800F62130 /* ReadiumCSS-before.css in Resources */,
+				C58BFE8B2ADC766800F62130 /* ReadiumCSS-before.css in Resources */,
 				C522AE552ADC217C00444902 /* fxl-spread-one.html in Resources */,
-				C5A7781A2ADC4B4A00ECADC7 /* ReadiumCSS-default.css in Resources */,
-				C5A778382ADC4B4B00ECADC7 /* readium-fixed-wrapper-one.js in Resources */,
-				C5A777FF2ADC4B4A00ECADC7 /* ReadiumCSS-before.css in Resources */,
-				C5A777FC2ADC4B4A00ECADC7 /* fxl-spread-one.html in Resources */,
-				C5A7781D2ADC4B4A00ECADC7 /* ReadiumCSS-after.css in Resources */,
+				C58BFE9D2ADC766800F62130 /* ReadiumCSS-default.css in Resources */,
+				C58BFEBB2ADC766800F62130 /* readium-fixed-wrapper-one.js in Resources */,
+				C58BFE822ADC766800F62130 /* ReadiumCSS-before.css in Resources */,
+				C58BFE7F2ADC766800F62130 /* fxl-spread-one.html in Resources */,
+				C58BFEA02ADC766800F62130 /* ReadiumCSS-after.css in Resources */,
 				C522AE7C2ADC217C00444902 /* cjk-horizontal_ReadiumCSS-after.css in Resources */,
 				C522AE822ADC217C00444902 /* LICENSE-AccessibleDfa in Resources */,
-				C5A7782C2ADC4B4B00ECADC7 /* LICENSE-AccessibleDfa in Resources */,
+				C58BFEAF2ADC766800F62130 /* LICENSE-AccessibleDfa in Resources */,
 				C522AE972ADC217C00444902 /* fxl-spread-two.html in Resources */,
 				C522AE6D2ADC217C00444902 /* rtl_ReadiumCSS-after.css in Resources */,
-				C5A7783E2ADC4B4B00ECADC7 /* readium-reflowable.js in Resources */,
-				C5A778052ADC4B4A00ECADC7 /* ReadiumCSS-ebpaj_fonts_patch.css in Resources */,
-				C5A778412ADC4B4B00ECADC7 /* .gitignore in Resources */,
+				C58BFEC12ADC766800F62130 /* readium-reflowable.js in Resources */,
+				C58BFE882ADC766800F62130 /* ReadiumCSS-ebpaj_fonts_patch.css in Resources */,
+				C58BFEC42ADC766800F62130 /* .gitignore in Resources */,
 				C522AE792ADC217C00444902 /* cjk-horizontal_ReadiumCSS-before.css in Resources */,
 				C522AE612ADC217C00444902 /* cjk-vertical_ReadiumCSS-default.css in Resources */,
-				C5A7782F2ADC4B4B00ECADC7 /* iAWriterDuospace-Regular.ttf in Resources */,
+				C58BFEB22ADC766800F62130 /* iAWriterDuospace-Regular.ttf in Resources */,
 				C522AE732ADC217C00444902 /* rtl_ReadiumCSS-default.css in Resources */,
 				C522AE942ADC217C00444902 /* readium-reflowable.js in Resources */,
-				C5A778232ADC4B4A00ECADC7 /* ReadiumCSS-default.css in Resources */,
-				C5A778172ADC4B4A00ECADC7 /* ReadiumCSS-before.css in Resources */,
+				C58BFEA62ADC766800F62130 /* ReadiumCSS-default.css in Resources */,
+				C58BFE9A2ADC766800F62130 /* ReadiumCSS-before.css in Resources */,
 				C522AE5E2ADC217C00444902 /* ReadiumCSS-ebpaj_fonts_patch.css in Resources */,
 				C522AE7F2ADC217C00444902 /* AccessibleDfA.otf in Resources */,
-				C5A778262ADC4B4A00ECADC7 /* ReadiumCSS-after.css in Resources */,
+				C58BFEA92ADC766800F62130 /* ReadiumCSS-after.css in Resources */,
 				C522B0982ADC217E00444902 /* OpenDyslexic-Regular.otf in Resources */,
-				C5A778322ADC4B4B00ECADC7 /* LICENSE-IaWriterDuospace.md in Resources */,
+				C58BFEB52ADC766800F62130 /* LICENSE-IaWriterDuospace.md in Resources */,
 				C522AE912ADC217C00444902 /* readium-fixed.js in Resources */,
 				C522AE762ADC217C00444902 /* cjk-horizontal_ReadiumCSS-default.css in Resources */,
-				C5A778352ADC4B4B00ECADC7 /* readium-fixed-wrapper-two.js in Resources */,
-				C5A778022ADC4B4A00ECADC7 /* ReadiumCSS-default.css in Resources */,
+				C58BFEB82ADC766800F62130 /* readium-fixed-wrapper-two.js in Resources */,
+				C58BFE852ADC766800F62130 /* ReadiumCSS-default.css in Resources */,
 				C522AE5B2ADC217C00444902 /* ReadiumCSS-default.css in Resources */,
 				C522AE702ADC217C00444902 /* rtl_ReadiumCSS-before.css in Resources */,
 				C522AE642ADC217C00444902 /* cjk-vertical_ReadiumCSS-after.css in Resources */,
-				C5A778142ADC4B4A00ECADC7 /* ReadMe.md in Resources */,
-				C5A7783B2ADC4B4B00ECADC7 /* readium-fixed.js in Resources */,
-				C5A7780B2ADC4B4A00ECADC7 /* ReadiumCSS-default.css in Resources */,
-				C5A778472ADC4B4B00ECADC7 /* fxl-spread-two.html in Resources */,
+				C58BFE972ADC766800F62130 /* ReadMe.md in Resources */,
+				C58BFEBE2ADC766800F62130 /* readium-fixed.js in Resources */,
+				C58BFE8E2ADC766800F62130 /* ReadiumCSS-default.css in Resources */,
+				C58BFECA2ADC766800F62130 /* fxl-spread-two.html in Resources */,
 				C522AE6A2ADC217C00444902 /* ReadiumCSS-after.css in Resources */,
 				C522AE8E2ADC217C00444902 /* readium-fixed-wrapper-one.js in Resources */,
-				C5A778292ADC4B4A00ECADC7 /* AccessibleDfA.otf in Resources */,
-				C5A778112ADC4B4A00ECADC7 /* ReadiumCSS-after.css in Resources */,
+				C58BFEAC2ADC766800F62130 /* AccessibleDfA.otf in Resources */,
+				C58BFE942ADC766800F62130 /* ReadiumCSS-after.css in Resources */,
 				C522AE882ADC217C00444902 /* LICENSE-IaWriterDuospace.md in Resources */,
-				C5A7780E2ADC4B4A00ECADC7 /* ReadiumCSS-after.css in Resources */,
+				C58BFE912ADC766800F62130 /* ReadiumCSS-after.css in Resources */,
 				C522AE672ADC217C00444902 /* cjk-vertical_ReadiumCSS-before.css in Resources */,
 				C522AE8B2ADC217C00444902 /* readium-fixed-wrapper-two.js in Resources */,
 				C522AE852ADC217C00444902 /* iAWriterDuospace-Regular.ttf in Resources */,
-				C5A778442ADC4B4B00ECADC7 /* OpenDyslexic-Regular.otf in Resources */,
+				C58BFEC72ADC766800F62130 /* OpenDyslexic-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
