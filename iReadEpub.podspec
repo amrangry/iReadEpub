@@ -47,13 +47,13 @@ Pod::Spec.new do |s|
     #    'iReadEpub' => ['Assets/**/*.{html,css,js,otf,ttf}']
     #  }
     s.resource_bundles = {
-        'AssetsHtml' => [
+        'Assets' => [
         'Assets/Assets/htmls'
         ],
-        'AssetsStatic' => [
+        'Assets' => [
         'Assets/Assets/Static'
         ],
-        'AssetsFonts' => [
+        'Assets' => [
         'Assets/Assets/fonts'
         ],
     }
