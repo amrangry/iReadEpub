@@ -11,7 +11,6 @@
 
 import Foundation
 import Fuzi
-//import R2Shared
 
 /// Epub related constants.
 private struct EPUBConstant {

@@ -9,9 +9,8 @@
 //  in the LICENSE file present in the project repository where this source code is maintained.
 //
 
-//import R2Shared
-import Fuzi
 import Foundation
+import Fuzi
 
 /// Reference: https://github.com/readium/architecture/blob/master/streamer/parser/metadata.md
 final class EPUBMetadataParser: Loggable {

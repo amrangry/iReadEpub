@@ -6,7 +6,6 @@
 
 import Foundation
 import UIKit
-//import R2Shared
 
 /// A navigator able to render arbitrary decorations over a publication.
 public protocol DecorableNavigator {

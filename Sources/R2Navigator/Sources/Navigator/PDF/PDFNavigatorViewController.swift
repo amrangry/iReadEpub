@@ -7,8 +7,6 @@
 import Foundation
 import PDFKit
 import UIKit
-//import R2Shared
-
 
 public protocol PDFNavigatorDelegate: VisualNavigatorDelegate, SelectableNavigatorDelegate { }
 

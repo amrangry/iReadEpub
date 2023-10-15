@@ -5,7 +5,6 @@
 //
 
 import Foundation
-//import R2Shared
 
 public protocol PublicationSpeechSynthesizerDelegate: AnyObject {
     /// Called when the synthesizer's state is updated.

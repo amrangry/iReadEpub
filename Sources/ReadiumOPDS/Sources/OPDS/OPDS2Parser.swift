@@ -11,8 +11,6 @@
 
 import Foundation
 
-//import R2Shared
-
 public enum OPDS2ParserError: Error {
     case invalidJSON
     case metadataNotFound

@@ -7,7 +7,6 @@
 import Foundation
 import UIKit
 import WebKit
-//import R2Shared
 
 /// A view rendering a spread of resources with a reflowable layout.
 final class EPUBReflowableSpreadView: EPUBSpreadView {

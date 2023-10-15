@@ -6,7 +6,6 @@
 
 import AVFoundation
 import Foundation
-//import R2Shared
 
 /// Implementation of a `TTSEngine` using Apple AVFoundation's `AVSpeechSynthesizer`.
 public class AVTTSEngine: NSObject, TTSEngine, AVSpeechSynthesizerDelegate, Loggable {

@@ -10,7 +10,6 @@
 //
 
 import Foundation
-//import R2Shared
 
 /// List of OPDS versions compliant with the parser.
 public enum Version {

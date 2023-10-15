@@ -11,7 +11,6 @@
 
 import Foundation
 import UIKit
-//import R2Shared
 
 public class UserSettings {
     

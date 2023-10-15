@@ -11,7 +11,6 @@
 
 import Foundation
 import UIKit
-//import R2Shared
 
 /// Structure holding the metadata from a standalone PDF file.
 @available(*, unavailable, message: "Use `PDFDocument` from r2-shared instead")

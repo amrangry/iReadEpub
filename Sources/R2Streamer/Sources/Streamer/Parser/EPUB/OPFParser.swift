@@ -9,10 +9,8 @@
 //  in the LICENSE file present in the project repository where this source code is maintained.
 //
 
-import Fuzi
-//import R2Shared
 import Foundation
-
+import Fuzi
 
 // http://www.idpf.org/epub/30/spec/epub30-publications.html#title-type
 // the six basic values of the "title-type" property specified by EPUB 3:

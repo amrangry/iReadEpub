@@ -10,7 +10,6 @@
 //
 
 import Foundation
-//import R2Shared
 
 func R2NavigatorLocalizedString(_ key: String, _ values: CVarArg...) -> String {
     return R2LocalizedString("R2Navigator.\(key)", in: Bundle.module, values)

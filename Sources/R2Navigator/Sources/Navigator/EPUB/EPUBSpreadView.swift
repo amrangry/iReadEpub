@@ -6,7 +6,6 @@
 
 import WebKit
 import SwiftSoup
-//import R2Shared
 
 protocol EPUBSpreadViewDelegate: AnyObject {
     /// Called when the spread view finished loading.

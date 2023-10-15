@@ -6,8 +6,6 @@
 
 import Foundation
 import UIKit
-//import R2Shared
-
 /// A navigator rendering the publication visually on-screen.
 public protocol VisualNavigator: Navigator {
     

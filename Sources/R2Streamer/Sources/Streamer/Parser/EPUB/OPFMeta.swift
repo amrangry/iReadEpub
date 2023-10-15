@@ -11,7 +11,6 @@
 
 import Foundation
 import Fuzi
-//import R2Shared
 
 /// Package vocabularies used for `property`, `properties`, `scheme` and `rel`.
 /// http://www.idpf.org/epub/301/spec/epub-publications.html#sec-metadata-assoc

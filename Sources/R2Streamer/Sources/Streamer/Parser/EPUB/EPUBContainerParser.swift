@@ -11,8 +11,6 @@
 
 import Foundation
 import Fuzi
-//import R2Shared
-
 
 /// A parser for the META-INF/container.xml file.
 final class EPUBContainerParser: Loggable {

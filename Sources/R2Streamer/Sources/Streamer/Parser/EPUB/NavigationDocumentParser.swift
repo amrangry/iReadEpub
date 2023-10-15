@@ -9,9 +9,8 @@
 //  in the LICENSE file present in the project repository where this source code is maintained.
 //
 
-//import R2Shared
-import Fuzi
 import Foundation
+import Fuzi
 
 /// The navigation document if documented here at Navigation
 /// https://idpf.github.io/a11y-guidelines/

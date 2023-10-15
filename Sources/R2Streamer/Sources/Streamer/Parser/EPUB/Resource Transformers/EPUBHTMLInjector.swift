@@ -11,7 +11,6 @@
 
 import Foundation
 import Fuzi
-//import R2Shared
 
 /// Applies various CSS injections in reflowable EPUB resources.
 final class EPUBHTMLInjector {

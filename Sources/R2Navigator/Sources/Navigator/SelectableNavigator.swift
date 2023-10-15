@@ -6,7 +6,6 @@
 
 import Foundation
 import UIKit
-//import R2Shared
 
 /// A navigator supporting user selection.
 public protocol SelectableNavigator: Navigator {

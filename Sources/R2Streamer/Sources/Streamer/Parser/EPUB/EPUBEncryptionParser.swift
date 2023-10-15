@@ -11,8 +11,6 @@
 
 import Foundation
 import Fuzi
-//import R2Shared
-
 
 /// A parser module which provide methods to parse encrypted XML elements.
 final class EPUBEncryptionParser: Loggable {

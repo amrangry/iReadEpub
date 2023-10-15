@@ -10,7 +10,6 @@
 //
 
 import Foundation
-//import R2Shared
 
 /// Parses an image–based Publication from an unstructured archive format containing bitmap files,
 /// such as CBZ or a simple ZIP.

@@ -5,7 +5,6 @@
 //
 
 import UIKit
-//import R2Shared
 
 public protocol CBZNavigatorDelegate: VisualNavigatorDelegate { }
 

@@ -10,8 +10,6 @@
 //
 
 import Foundation
-//import R2Shared
-
 
 /// Container to access remote files through HTTP requests.
 @available(*, unavailable, message: "Use `Publication.get()` to access a publication's resources")

@@ -7,8 +7,6 @@
 import Foundation
 import UIKit
 import WebKit
-//import R2Shared
-
 
 /// A view rendering a spread of resources with a fixed layout.
 final class EPUBFixedSpreadView: EPUBSpreadView {

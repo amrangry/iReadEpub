@@ -10,7 +10,6 @@
 //
 
 import Foundation
-//import R2Shared
 
 public enum OPDSParserError: Error {
     case documentNotFound

@@ -10,7 +10,6 @@
 //
 
 import Foundation
-//import R2Shared
 
 /// Input stream to read a `Resource`'s content.
 class ResourceInputStream: SeekableInputStream {

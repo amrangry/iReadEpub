@@ -5,7 +5,6 @@
 //
 
 import UIKit
-//import R2Shared
 
 enum PageLocation: Equatable {
     case start

@@ -11,7 +11,6 @@
 
 import Foundation
 import UIKit
-//import R2Shared
 
 /// Zoomable image view controller.
 final class ImageViewController: UIViewController, Loggable {

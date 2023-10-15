@@ -10,7 +10,6 @@
 //
 
 import Foundation
-//import R2Shared
 
 public enum ReadiumWebPubParserError: Error {
     case parseFailure(url: URL, Error?)

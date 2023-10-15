@@ -11,7 +11,6 @@
 
 import Foundation
 import CryptoSwift
-//import R2Shared
 
 /// Deobfuscates EPUB resources.
 /// https://www.w3.org/publishing/epub3/epub-ocf.html#sec-resource-obfuscation

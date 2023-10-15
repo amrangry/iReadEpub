@@ -9,9 +9,8 @@
 //  in the LICENSE file present in the project repository where this source code is maintained.
 //
 
-import Fuzi
-//import R2Shared
 import Foundation
+import Fuzi
 
 public enum OPDS1ParserError: Error {
     // The title is missing from the feed.
