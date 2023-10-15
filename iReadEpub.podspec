@@ -7,91 +7,74 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'iReadEpub'
-  s.version          = '0.2.7'
-  s.summary          = 'iReadEpub is aswiftly lib for Epub reading'
-  
-  # This description is used to generate tags and improve search results.
-  #   * Think: What does it do? Why did you write it? What is the focus?
-  #   * Try to keep it short, snappy and to the point.
-  #   * Write the description between the DESC delimiters below.
-  #   * Finally, don't worry about the indent, CocoaPods strips it!
-  
-  s.description      = <<-DESC
-  TODO: Add long description of the pod here.
-  DESC
-  
-  s.homepage         = 'https://github.com/amrangry/iReadEpub'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'amrangry' => 'amr.elghadban@gmail.com' }
-  s.source           = { :git => 'https://github.com/amrangry/iReadEpub.git', :tag => s.version.to_s }
-  # s.source        = { :git => "https://github.com/readium/swift-toolkit.git", :tag => "2.4.0" }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-  
-  # s.platforms = { "ios": "14.0" }
-  s.platform      = :ios
-  s.ios.deployment_target = '14.0'
-  s.swift_version = '5.0'
-  s.requires_arc     = true
-  
-  #s.libraries     =  'z', 'xml2'
-  #s.xcconfig      = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
-  #  s.exclude_files = 'test.js', '**/test.js', 'submodules/extenalProj/test.js', 'submodules/extenalProj/**/test.js'
-  #  s.exclude_files = ["Sources/Shared/Toolkit/Archive/ZIPFoundation.swift"]
-
-#  s.resource_bundles = {
-#    'iReadEpub' => ['iReadEpub/Assets/**/*.*']
-#  }
-#  s.resource_bundles = {
-#    'iReadEpub' => ['Assets/**/*.{html,css,js,otf,ttf}']
-#  }
-  #'Sources/Navigator/Resources/**'
-  s.resource_bundles = {
-    'AssetsHtml' => [
-      'Assets/htmls'
-    ],
-    'AssetsStatic' => [
-      'Assets/Static'
-    ],
-    'AssetsFonts' => [
-      'Assets/fonts'
-    ],
-  }
-  
-
-  
-  
-#  s.resource_bundles = {
-#     'ReadiumStreamer' => [
-#       'Sources/Streamer/Resources/**',
-#       'Sources/Streamer/Assets',
-#     ],
-#   }
-#  
-#   s.resource_bundles = {
-#     'ReadiumShared' => ['Sources/Shared/Resources/**'],
-#   }
+    s.name             = 'iReadEpub'
+    s.version          = '0.2.7'
+    s.summary          = 'iReadEpub is aswiftly lib for Epub reading'
     
-
-
-  #  s.source_files = 'Sources/**/*'
-  s.default_subspecs = 'Sources'
-  s.subspec 'Sources' do |subspec|
-   # subspec.source_files = 'Sources/**/*'
-   subspec.source_files = 'Sources/**/*.{m,h,swift}'
-  end
-  
-  s.frameworks = 'Foundation', 'UIKit', 'AVFoundation', 'CoreGraphics', 'WebKit', 'SafariServices', 'CoreServices', 'PDFKit'
-  
-  s.dependency 'Fuzi' , '~> 3.1.3' # '~> 3.0'
-  s.dependency 'DifferenceKit' , '~> 1.3.0' #'~> 1.0'
-  s.dependency 'CryptoSwift', '~> 1.5.1' #'<= 1.5.1' # From 1.6.0, the build fails in GitHub actions
-  s.dependency 'SwiftSoup', '~> 2.5.3' #'~> 2.0'
-  s.dependency 'Minizip', '~> 1.0.0' #'~> 1.0'
-  s.dependency 'GCDWebServer', '~> 3.5.4' #'~> 3.0'
-  #s.dependency 'GCDWebServer', :git => 'https://github.com/amrangry/GCDWebServer.git' #can't be use must override in pod file
-  
+    # This description is used to generate tags and improve search results.
+    #   * Think: What does it do? Why did you write it? What is the focus?
+    #   * Try to keep it short, snappy and to the point.
+    #   * Write the description between the DESC delimiters below.
+    #   * Finally, don't worry about the indent, CocoaPods strips it!
+    
+    s.description      = <<-DESC
+    TODO: Add long description of the pod here.
+    DESC
+    
+    s.homepage         = 'https://github.com/amrangry/iReadEpub'
+    # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+    s.license          = { :type => 'MIT', :file => 'LICENSE' }
+    s.author           = { 'amrangry' => 'amr.elghadban@gmail.com' }
+    s.source           = { :git => 'https://github.com/amrangry/iReadEpub.git', :tag => s.version.to_s }
+    # s.source        = { :git => "https://github.com/readium/swift-toolkit.git", :tag => "2.4.0" }
+    # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+    
+    # s.platforms = { "ios": "14.0" }
+    s.platform      = :ios
+    s.ios.deployment_target = '14.0'
+    s.swift_version = '5.0'
+    s.requires_arc     = true
+    
+    #s.libraries     =  'z', 'xml2'
+    #s.xcconfig      = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
+    #  s.exclude_files = 'test.js', '**/test.js', 'submodules/extenalProj/test.js', 'submodules/extenalProj/**/test.js'
+    #  s.exclude_files = ["Sources/Shared/Toolkit/Archive/ZIPFoundation.swift"]
+    
+    #  s.resource_bundles = {
+    #    'iReadEpub' => ['iReadEpub/Assets/**/*.*']
+    #  }
+    #  s.resource_bundles = {
+    #    'iReadEpub' => ['Assets/**/*.{html,css,js,otf,ttf}']
+    #  }
+    s.resource_bundles = {
+        'AssetsHtml' => [
+        'Assets/htmls'
+        ],
+        'AssetsStatic' => [
+        'Assets/Static'
+        ],
+        'AssetsFonts' => [
+        'Assets/fonts'
+        ],
+    }
+    
+    #  s.source_files = 'Sources/**/*'
+    s.default_subspecs = 'Sources'
+    s.subspec 'Sources' do |subspec|
+        # subspec.source_files = 'Sources/**/*'
+        subspec.source_files = 'Sources/**/*.{m,h,swift}'
+    end
+    
+    s.frameworks = 'Foundation', 'UIKit', 'AVFoundation', 'CoreGraphics', 'WebKit', 'SafariServices', 'CoreServices', 'PDFKit'
+    
+    s.dependency 'Fuzi' , '~> 3.1.3' # '~> 3.0'
+    s.dependency 'DifferenceKit' , '~> 1.3.0' #'~> 1.0'
+    s.dependency 'CryptoSwift', '~> 1.5.1' #'<= 1.5.1' # From 1.6.0, the build fails in GitHub actions
+    s.dependency 'SwiftSoup', '~> 2.5.3' #'~> 2.0'
+    s.dependency 'Minizip', '~> 1.0.0' #'~> 1.0'
+    s.dependency 'GCDWebServer', '~> 3.5.4' #'~> 3.0'
+    #s.dependency 'GCDWebServer', :git => 'https://github.com/amrangry/GCDWebServer.git' #can't be use must override in pod file
+    
 end
 
 
