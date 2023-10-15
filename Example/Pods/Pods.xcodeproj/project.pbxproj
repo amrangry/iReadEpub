@@ -1359,7 +1359,7 @@
 		81B16134F07C5C0C1B7B38AEF73FD5D4 /* iReadEpub */ = {
 			isa = PBXGroup;
 			children = (
-				C54BA20F2ADBC47E00A1765D /* Classes */,
+				C54BA20F2ADBC47E00A1765D /* Sources */,
 				C54BA18C2ADBC07D00A1765D /* Assets */,
 				33C03F99BA42E376E51F2A095B7D49F8 /* Pod */,
 				2F808FA3DF9A91E2CB8B91A005597F12 /* Support Files */,
@@ -1412,12 +1412,12 @@
 			path = Assets;
 			sourceTree = "<group>";
 		};
-		C54BA20F2ADBC47E00A1765D /* Classes */ = {
+		C54BA20F2ADBC47E00A1765D /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				C54BA2102ADBC47E00A1765D /* ReadiumSDK */,
 			);
-			path = Classes;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		C54BA2102ADBC47E00A1765D /* ReadiumSDK */ = {

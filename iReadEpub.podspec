@@ -45,7 +45,7 @@ Pod::Spec.new do |s|
     #  end
     
    # s.source_files = 'Classes/*'
-    s.source_files = 'iReadEpub/Classes/**/*'
+    s.source_files = 'Sources/**/*'
     s.resource_bundles = {
         'iReadEpub' => ['Assets/*.*']
     }
