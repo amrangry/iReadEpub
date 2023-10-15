@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'iReadEpub'
-    s.version          = '0.2.9'
+    s.version          = '0.3.0'
     s.summary          = 'iReadEpub is aswiftly lib for Epub reading'
     
     # This description is used to generate tags and improve search results.
@@ -47,7 +47,7 @@ Pod::Spec.new do |s|
     #    'iReadEpub' => ['Assets/**/*.{html,css,js,otf,ttf}']
     #  }
     s.resource_bundles = {
-        'resource' => [
+        'iReadEpub' => [
         'Assets'
         ],
 #        'StaticFiles' => [
