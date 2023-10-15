@@ -47,7 +47,7 @@ Pod::Spec.new do |s|
   end
   
   s.subspec 'Assets' do |subspec|
-    s.resource_bundles = 'Assets/**/*.*'
+    subspec.source_files = 'Assets/**/*.*'
   end
   
   s.frameworks = 'Foundation', 'UIKit', 'AVFoundation', 'CoreGraphics', 'WebKit', 'SafariServices', 'CoreServices', 'PDFKit'
