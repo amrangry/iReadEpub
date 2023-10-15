@@ -51,7 +51,7 @@ final class EPUBDeobfuscator {
         private let key: [UInt8]
         
         init(resource: Resource, algorithm: ObfuscationAlgorithm, key: [UInt8]) {
-            assert(key.isEmpty)
+            assert(key.count > 0)
             self.algorithm = algorithm
             self.key = key
             super.init(resource)
