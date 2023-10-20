@@ -6,7 +6,6 @@
 
 import WebKit
 import SwiftSoup
-import SnapKit
 import ScreenshotPreventing
 
 protocol EPUBSpreadViewDelegate: AnyObject {
@@ -88,13 +87,17 @@ class EPUBSpreadView: UIView, Loggable, PageView {
         screenshotPreventView.preventScreenCapture = true
         addSubview(screenshotPreventView)
         screenshotPreventView.translatesAutoresizingMaskIntoConstraints = false
-        screenshotPreventView.snp.makeConstraints { make in
-            make.top.bottom.leading.trailing.equalToSuperview()
-        }
+        NSLayoutConstraint.activate([
+            screenshotPreventView.leadingAnchor.constraint(equalTo: self.safeAreaLayoutGuide.leadingAnchor),
+            screenshotPreventView.topAnchor.constraint(equalTo: self.safeAreaLayoutGuide.topAnchor),
+            screenshotPreventView.trailingAnchor.constraint(equalTo: self.safeAreaLayoutGuide.trailingAnchor),
+            screenshotPreventView.bottomAnchor.constraint(equalTo: self.safeAreaLayoutGuide.bottomAnchor),
+        ])
 
 //        webView.frame = bounds
 //        webView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
 //        addSubview(webView)
+        
         setupWebView()
         
         addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(didTapBackground)))
