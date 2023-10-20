@@ -86,7 +86,7 @@ class EPUBSpreadView: UIView, Loggable, PageView {
         backgroundColor = .clear
         
         screenshotPreventView.preventScreenCapture = true
-        view.addSubview(screenshotPreventView)
+        addSubview(screenshotPreventView)
         screenshotPreventView.translatesAutoresizingMaskIntoConstraints = false
         screenshotPreventView.snp.makeConstraints { make in
             make.top.bottom.leading.trailing.equalToSuperview()
