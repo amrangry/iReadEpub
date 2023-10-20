@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'iReadEpub'
-    s.version          = '0.3.0'
+    s.version          = '0.3.1'
     s.summary          = 'iReadEpub is aswiftly lib for Epub reading'
     
     # This description is used to generate tags and improve search results.
@@ -74,6 +74,8 @@ Pod::Spec.new do |s|
     s.dependency 'Minizip', '~> 1.0.0' #'~> 1.0'
     s.dependency 'GCDWebServer', '~> 3.5.4' #'~> 3.0'
     #s.dependency 'GCDWebServer', :git => 'https://github.com/amrangry/GCDWebServer.git' #can't be use must override in pod file
+    s.dependency 'ScreenshotPreventing' #, '~> 1.4.0'
+    s.dependency 'SnapKit' #, '~> 5.6.0'
     
 end
 
