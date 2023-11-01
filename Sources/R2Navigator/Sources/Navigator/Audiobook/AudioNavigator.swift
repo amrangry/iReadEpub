@@ -32,7 +32,8 @@ open class AudioNavigator: MediaNavigator, AudioSessionUserProtocol, Loggable {
             mode: .default,
             routeSharingPolicy: {
                 if #available(iOS 11.0, *) {
-                    return .longForm
+                   // return .longForm
+                    return AVAudioSession.RouteSharingPolicy.longFormAudio
                 } else {
                     return .default
                 }

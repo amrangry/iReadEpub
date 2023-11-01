@@ -522,9 +522,9 @@ private extension EPUBSpreadView {
         let value = appearance.values[appearance.index]
         switch value {
         case "readium-night-on":
-            createActivityIndicator(style: .white)
+            createActivityIndicator(style: UIActivityIndicatorView.Style.medium)
         default:
-            createActivityIndicator(style: .gray)
+            createActivityIndicator(style: UIActivityIndicatorView.Style.medium)
         }
     }
     
