@@ -375,18 +375,3 @@ extension PDFNavigatorViewController: UIGestureRecognizerDelegate {
     }
     
 }
-
-
-// MARK: - Deprecated
-
-@available(iOS 11.0, *)
-extension PDFNavigatorViewController {
-    
-    /// This initializer is deprecated.
-    /// `license` is not needed anymore.
-    @available(*, unavailable, renamed: "init(publication:initialLocation:editingActions:)")
-    public convenience init(publication: Publication, license: DRMLicense?, initialLocation: Locator? = nil, editingActions: [EditingAction] = EditingAction.defaultActions) {
-        self.init(publication: publication, initialLocation: initialLocation, editingActions: editingActions)
-    }
-    
-}
