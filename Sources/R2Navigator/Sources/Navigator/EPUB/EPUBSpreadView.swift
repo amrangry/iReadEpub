@@ -504,7 +504,7 @@ extension EPUBSpreadView: UIScrollViewDelegate {
 
 extension EPUBSpreadView: WKUIDelegate {
     
-    func webView(_ webView: WKWebView, shouldPreviewElement elementInfo: WKPreviewElementInfo) -> Bool {
+    private func webView(_ webView: WKWebView, shouldPreviewElement elementInfo: WKContextMenuElementInfo) -> Bool {
         // Preview allowed only if the link is not internal
         return (elementInfo.linkURL?.host != publication.baseURL?.host)
     }
