@@ -14,7 +14,7 @@ import Foundation
 
 /// https://github.com/readium/architecture/tree/master/locators
 public struct Locator: Hashable, CustomStringConvertible, Loggable {
-
+    
     /// The URI of the resource that the Locator Object points to.
     public let href: String  // URI
     
@@ -43,8 +43,8 @@ public struct Locator: Hashable, CustomStringConvertible, Loggable {
             return nil
         }
         guard let jsonObject = json as? [String: Any],
-            let href = jsonObject["href"] as? String,
-            let type = jsonObject["type"] as? String else
+              let href = jsonObject["href"] as? String,
+              let type = jsonObject["type"] as? String else
         {
             warnings?.log("`href` and `type` required", model: Self.self, source: json)
             throw JSONError.parsing(Self.self)
@@ -70,12 +70,12 @@ public struct Locator: Hashable, CustomStringConvertible, Loggable {
         
         try self.init(json: json, warnings: warnings)
     }
-
+    
     @available(*, deprecated, message: "This may create an incorrect `Locator` if the link `type` is missing. Use `publication.locate(Link)` instead.")
     public init(link: Link) {
         let components = link.href.split(separator: "#", maxSplits: 1).map(String.init)
         let fragments = (components.count > 1) ? [String(components[1])] : []
-
+        
         self.init(
             href: components.first ?? link.href,
             type: link.type ?? "",
@@ -97,7 +97,7 @@ public struct Locator: Hashable, CustomStringConvertible, Loggable {
     public var jsonString: String? {
         serializeJSONString(json)
     }
-
+    
     public var description: String {
         jsonString ?? "{}"
     }
@@ -131,13 +131,13 @@ public struct Locator: Hashable, CustomStringConvertible, Loggable {
         public var totalProgression: Double?
         /// An index in the publication (>= 1).
         public var position: Int?
-
+        
         /// Additional locations for extensions.
         public var otherLocations: [String: Any] {
-          get { otherLocationsJSON.json }
-          set { otherLocationsJSON = JSONDictionary(newValue) ?? JSONDictionary() }
+            get { otherLocationsJSON.json }
+            set { otherLocationsJSON = JSONDictionary(newValue) ?? JSONDictionary() }
         }
-
+        
         // Trick to keep the struct equatable despite [String: Any]
         private var otherLocationsJSON: JSONDictionary
         
@@ -180,7 +180,7 @@ public struct Locator: Hashable, CustomStringConvertible, Loggable {
                 self.init()
             }
         }
-
+        
         public var isEmpty: Bool { json.isEmpty }
         
         public var json: [String: Any] {
@@ -193,11 +193,11 @@ public struct Locator: Hashable, CustomStringConvertible, Loggable {
         }
         
         public var jsonString: String? { serializeJSONString(json) }
-
+        
         /// Syntactic sugar to access the `otherLocations` values by subscripting `Locations` directly.
         /// locations["cssSelector"] == locations.otherLocations["cssSelector"]
         public subscript(key: String) -> Any? { otherLocations[key] }
-
+        
         @available(*, unavailable, renamed: "init(jsonString:)")
         public init(fromString: String) {
             fatalError()
@@ -259,7 +259,7 @@ public struct Locator: Hashable, CustomStringConvertible, Loggable {
         }
         
         public var jsonString: String? { serializeJSONString(json) }
-            
+        
         /// Returns a copy of this text after sanitizing its content for user display.
         public func sanitized() -> Locator.Text {
             Locator.Text(
@@ -268,7 +268,7 @@ public struct Locator: Hashable, CustomStringConvertible, Loggable {
                 highlight: highlight?.coalescingWhitespaces()
             )
         }
-
+        
         /// Returns a copy of this text after highlighting a sub-range in the `highlight` property.
         ///
         /// The bounds of the range must be valid indices of the `highlight` property.
@@ -276,21 +276,21 @@ public struct Locator: Hashable, CustomStringConvertible, Loggable {
             guard let highlight = highlight else {
                 preconditionFailure("highlight is nil")
             }
-
+            
             let range = range.relative(to: highlight)
             var before = self.before ?? ""
             var after = self.after ?? ""
             let newHighlight = highlight[range]
             before = before + highlight[..<range.lowerBound]
             after = highlight[range.upperBound...] + after
-
+            
             return Locator.Text(
                 after: Optional(after).takeIf { !$0.isEmpty },
                 before: Optional(before).takeIf { !$0.isEmpty },
                 highlight: Optional(String(newHighlight)).takeIf { !$0.isEmpty }
             )
         }
-
+        
         @available(*, unavailable, renamed: "init(jsonString:)")
         public init(fromString: String) {
             fatalError()
@@ -331,17 +331,17 @@ extension Array where Element == Locator {
 /// **WARNING:** This API is experimental and may change or be removed in a future release without
 /// notice. Use with caution.
 public struct _LocatorCollection: Hashable {
-
+    
     public let metadata: Metadata
     public let links: [Link]
     public let locators: [Locator]
-
+    
     public init(metadata: Metadata = Metadata(), links: [Link] = [], locators: [Locator] = []) {
         self.metadata = metadata
         self.links = links
         self.locators = locators
     }
-
+    
     public init?(json: Any?, warnings: WarningLogger? = nil) {
         if json == nil {
             return nil
@@ -356,7 +356,7 @@ public struct _LocatorCollection: Hashable {
             locators: [Locator](json: jsonObject["locators"])
         )
     }
-
+    
     public var json: [String: Any] {
         return makeJSON([
             "metadata": encodeIfNotEmpty(metadata.json),
@@ -364,22 +364,22 @@ public struct _LocatorCollection: Hashable {
             "locators": locators.json,
         ])
     }
-
+    
     /// Holds the metadata of a `LocatorCollection`.
     public struct Metadata: Hashable {
-
+        
         public let localizedTitle: LocalizedString?
         public var title: String? { localizedTitle?.string }
-
+        
         /// Indicates the total number of locators in the collection.
         public let numberOfItems: Int?
-
+        
         /// Additional properties for extensions.
         public var otherMetadata: [String: Any] { otherMetadataJSON.json }
-
+        
         // Trick to keep the struct equatable despite [String: Any]
         private let otherMetadataJSON: JSONDictionary
-
+        
         public init(
             title: LocalizedStringConvertible? = nil,
             numberOfItems: Int? = nil,
@@ -389,7 +389,7 @@ public struct _LocatorCollection: Hashable {
             self.numberOfItems = numberOfItems
             self.otherMetadataJSON = JSONDictionary(otherMetadata) ?? JSONDictionary()
         }
-
+        
         public init(json: Any?, warnings: WarningLogger? = nil) {
             if var json = JSONDictionary(json) {
                 self.localizedTitle = try? LocalizedString(json: json.pop("title"), warnings: warnings)
@@ -402,7 +402,7 @@ public struct _LocatorCollection: Hashable {
                 self.otherMetadataJSON = JSONDictionary()
             }
         }
-
+        
         public var json: [String: Any] {
             return makeJSON([
                 "title": encodeIfNotNil(localizedTitle?.json),
@@ -410,4 +410,5 @@ public struct _LocatorCollection: Hashable {
             ], additional: otherMetadata)
         }
     }
+    
 }

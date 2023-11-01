@@ -15,8 +15,6 @@ public protocol EPUBNavigatorDelegate: VisualNavigatorDelegate, SelectableNaviga
     
     func navigator(_ navigator: EPUBNavigatorViewController, setupUserScripts userContentController: WKUserContentController)
     
-    // MARK: - Deprecated
-    
     // Implement `NavigatorDelegate.navigator(didTapAt:)` instead.
     func middleTapHandler()
     
@@ -41,7 +39,6 @@ public extension EPUBNavigatorDelegate {
     func presentError(_ error: NavigatorError) {}
     
 }
-
 
 public typealias EPUBContentInsets = (top: CGFloat, bottom: CGFloat)
 
@@ -406,7 +403,6 @@ open class EPUBNavigatorViewController: UIViewController, VisualNavigator, Selec
             return 2.0
         }
     }()
-    
     
     // MARK: - Pagination and spreads
     
@@ -871,6 +867,7 @@ extension EPUBNavigatorViewController: EditingActionsControllerDelegate {
     func editingActions(_ editingActions: EditingActionsController, canPerformAction action: EditingAction, for selection: Selection) -> Bool {
         return delegate?.navigator(self, canPerformAction: action, for: selection) ?? true
     }
+    
 }
 
 extension EPUBNavigatorViewController: PaginationViewDelegate {

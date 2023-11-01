@@ -32,6 +32,7 @@ protocol EPUBSpreadViewDelegate: AnyObject {
     
     /// Called when the spread view needs to present a view controller.
     func spreadView(_ spreadView: EPUBSpreadView, present viewController: UIViewController)
+    
 }
 
 class EPUBSpreadView: UIView, Loggable, PageView {
@@ -93,10 +94,10 @@ class EPUBSpreadView: UIView, Loggable, PageView {
             screenshotPreventView.trailingAnchor.constraint(equalTo: self.safeAreaLayoutGuide.trailingAnchor),
             screenshotPreventView.bottomAnchor.constraint(equalTo: self.safeAreaLayoutGuide.bottomAnchor),
         ])
-
-//        webView.frame = bounds
-//        webView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
-//        addSubview(webView)
+        
+        //        webView.frame = bounds
+        //        webView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+        //        addSubview(webView)
         
         setupWebView()
         
@@ -107,7 +108,7 @@ class EPUBSpreadView: UIView, Loggable, PageView {
         }
         registerJSMessages()
         
-//        NotificationCenter.default.addObserver(self, selector: #selector(voiceOverStatusDidChange), name: Notification.Name(UIAccessibilityVoiceOverStatusChanged), object: nil)
+        //        NotificationCenter.default.addObserver(self, selector: #selector(voiceOverStatusDidChange), name: Notification.Name(UIAccessibilityVoiceOverStatusChanged), object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(voiceOverStatusDidChange), name: Notification.Name(UIAccessibility.voiceOverStatusDidChangeNotification.rawValue), object: nil)
         
         updateActivityIndicator()
@@ -299,7 +300,6 @@ class EPUBSpreadView: UIView, Loggable, PageView {
         assert(Thread.isMainThread, "User settings must be updated from the main thread")
     }
     
-    
     /// MARK: - Location and progression.
     
     /// Current progression in the resource with given href.
@@ -347,7 +347,6 @@ class EPUBSpreadView: UIView, Loggable, PageView {
     
     
     // MARK: - JS Messages
-    
     private var JSMessages: [String: (Any) -> Void] = [:]
     private var JSMessagesEnabled = false
     
@@ -419,7 +418,6 @@ class EPUBSpreadView: UIView, Loggable, PageView {
     
     
     // MARK: - Accessibility
-    
     private var isVoiceOverRunning = UIAccessibility.isVoiceOverRunning
     
     @objc private func voiceOverStatusDidChange() {
@@ -434,17 +432,16 @@ class EPUBSpreadView: UIView, Loggable, PageView {
     
     
     // MARK: - Scripts
-    
     class func loadScript(named name: String) -> String {
-        #if !SWIFT_PACKAGE
-        #if COCOAPODS
-                let source = Bundle.module.url(forResource: "\(name)", withExtension: "js", subdirectory: "Assets/Static/scripts").flatMap { try? String(contentsOf: $0) }!
-                return source
-        #else
-                let source = Bundle.module.url(forResource: "\(name)", withExtension: "js").flatMap { try? String(contentsOf: $0) }!
-                return source
-        #endif
-        #endif
+#if !SWIFT_PACKAGE
+#if COCOAPODS
+        let source = Bundle.module.url(forResource: "\(name)", withExtension: "js", subdirectory: "Assets/Static/scripts").flatMap { try? String(contentsOf: $0) }!
+        return source
+#else
+        let source = Bundle.module.url(forResource: "\(name)", withExtension: "js").flatMap { try? String(contentsOf: $0) }!
+        return source
+#endif
+#endif
     }
     
 }
@@ -470,7 +467,6 @@ extension EPUBSpreadView: WKNavigationDelegate {
     
     func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {
         var policy: WKNavigationActionPolicy = .allow
-        
         if navigationAction.navigationType == .linkActivated {
             if let url = navigationAction.request.url {
                 // Check if url is internal or external
@@ -487,6 +483,7 @@ extension EPUBSpreadView: WKNavigationDelegate {
         
         decisionHandler(policy)
     }
+    
 }
 
 extension EPUBSpreadView: UIScrollViewDelegate {
@@ -511,6 +508,7 @@ extension EPUBSpreadView: WKUIDelegate {
         // Preview allowed only if the link is not internal
         return (elementInfo.linkURL?.host != publication.baseURL?.host)
     }
+    
 }
 
 private extension EPUBSpreadView {
@@ -549,6 +547,7 @@ private extension EPUBSpreadView {
 
 /// Produced by gestures.js
 struct ClickEvent {
+    
     let defaultPrevented: Bool
     let point: CGPoint
     let targetElement: String
@@ -567,4 +566,5 @@ struct ClickEvent {
         }
         self.init(dict: dict)
     }
+    
 }

@@ -26,19 +26,19 @@ public protocol VisualNavigator: Navigator {
     /// - Returns: Whether the navigator is able to move to the previous content portion. The completion block is only called if true was returned.
     @discardableResult
     func goRight(animated: Bool, completion: @escaping () -> Void) -> Bool
-
+    
     /// Returns the `Locator` to the first content element that begins on the current screen.
     func firstVisibleElementLocator(completion: @escaping (Locator?) -> Void)
 }
 
 public extension VisualNavigator {
-
+    
     func firstVisibleElementLocator(completion: @escaping (Locator?) -> ()) {
         DispatchQueue.main.async {
             completion(currentLocation)
         }
     }
-
+    
     @discardableResult
     func goLeft(animated: Bool = false, completion: @escaping () -> Void = {}) -> Bool {
         switch readingProgression {
@@ -62,7 +62,7 @@ public extension VisualNavigator {
 
 
 public protocol VisualNavigatorDelegate: NavigatorDelegate {
-
+    
     /// Called when the user tapped the publication, and it didn't trigger any internal action.
     /// The point is relative to the navigator's view.
     func navigator(_ navigator: VisualNavigator, didTapAt point: CGPoint)
@@ -73,4 +73,5 @@ public extension VisualNavigatorDelegate {
     func navigator(_ navigator: VisualNavigator, didTapAt point: CGPoint) {
         // Optional
     }
+    
 }

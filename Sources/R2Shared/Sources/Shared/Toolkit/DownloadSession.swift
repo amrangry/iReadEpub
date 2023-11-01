@@ -128,13 +128,13 @@ public class DownloadSession: NSObject, URLSessionDelegate, URLSessionDownloadDe
     
     public func urlSession(_ session: URLSession, task: URLSessionTask, didCompleteWithError error: Error?) {
         DispatchQueue.main.async {
-            guard let downloadTask = task as? URLSessionDownloadTask else {return}
-            
-            guard let theError = error else {return}
+            guard let downloadTask = task as? URLSessionDownloadTask else { return }
+            guard let theError = error else { return }
             _ = self.taskMap[task]?.completion(nil, nil, error, downloadTask)
             self.taskMap.removeValue(forKey: task)
             
             self.displayDelegate?.didFailWithError(task: downloadTask, error: theError)
         }
     }
+    
 }
